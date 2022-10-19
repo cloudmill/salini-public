@@ -331,27 +331,7 @@
 											</div>
 										</div>
 										<div class="card-content__slider-wrapper">
-											<div class="swiper-pagination main-slider__pagination card-content__pagination"><svg class="main-slider__pagination-item card-content__pagination-item" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g opacity="0.4">
-														<circle cx="16" cy="16" r="15.5" stroke="#DCDCDC"></circle>
-														<circle cx="16" cy="16" r="2" fill="#DCDCDC"></circle>
-													</g>
-												</svg><svg class="main-slider__pagination-item card-content__pagination-item" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g opacity="0.4">
-														<circle cx="16" cy="16" r="15.5" stroke="#DCDCDC"></circle>
-														<circle cx="16" cy="16" r="2" fill="#DCDCDC"></circle>
-													</g>
-												</svg><svg class="main-slider__pagination-item card-content__pagination-item" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g opacity="0.4">
-														<circle cx="16" cy="16" r="15.5" stroke="#DCDCDC"></circle>
-														<circle cx="16" cy="16" r="2" fill="#DCDCDC"></circle>
-													</g>
-												</svg><svg class="main-slider__pagination-item card-content__pagination-item" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<g opacity="0.4">
-														<circle cx="16" cy="16" r="15.5" stroke="#DCDCDC"></circle>
-														<circle cx="16" cy="16" r="2" fill="#DCDCDC"></circle>
-													</g>
-												</svg></div>
+											<div class="swiper-pagination swiper-pagination--svg"></div>
 											<div class="only-mobile">
 												<div class="main-slider__controls card-content__slider-controls" data-slider-buttons><button class="left" id="product-slider-prev"><svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2941 22.4141L0.410641 12.3247V10.9251L10.2941 0.835785L11.7228 2.23534L3.50445 10.6249H24V12.6249H3.50445L11.7228 21.0145L10.2941 22.4141Z" fill="#DCDCDC"></path>
@@ -386,9 +366,171 @@
 											<div class="options-tabs">
 												<div class="options-tabs-block">
 													<div class="options-tabs-block__ttl">Материал</div>
-													<div class="options-tabs-block__row">
-														<div class="options-tabs-block__item">S-Sense</div>
-														<div class="options-tabs-block__item">S-Stone</div>
+													<div class="options-tabs-block__row" data-product-tabs><button class="options-tabs-block__item active" data-product-tab>S-Sense</button><button class="options-tabs-block__item" data-product-tab>S-Stone</button></div>
+												</div>
+												<div class="options-tabs-block">
+													<div class="options-tabs-block__ttl">Покрытие</div>
+													<div class="options-tabs-block__row" data-product-tabs><button class="options-tabs-block__item active" data-product-tab>Глянцевое</button><button class="options-tabs-block__item" data-product-tab>Матовое</button></div>
+												</div>
+												<div class="options-tabs-block">
+													<div class="options-tabs-block__ttl">Изменить цвет</div>
+													<div class="options-tabs-block__row" data-product-tabs><button class="options-tabs-block__item active" data-product-tab>Полностью</button><button class="options-tabs-block__item" data-product-tab>С внешней стороны</button></div>
+												</div>
+											</div>
+											<div class="colors-tabs" data-product-tabs>
+												<div class="colors-tabs-block">
+													<div class="colors-tabs-block__ttl"><span>Базовый цвет</span><span>0 ₽</span></div>
+													<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
+												</div>
+												<div class="colors-tabs-block">
+													<div class="colors-tabs-block__ttl"><span>Цвет по RAL +50%</span><span>28 790 ₽</span></div>
+													<div class="colors-tabs-block__row">
+														<div class="swiper" id="colors-slider">
+															<div class="swiper-wrapper">
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color2.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color3.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color4.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color5.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color6.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
+																<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="cards-tabs">
+												<div class="cards-tabs__ttl">Дренаж</div>
+												<div class="cards-tabs__row" data-product-tabs>
+													<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-1.webp" type="image/webp" /><img src="assets/images/card-options-1.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Белый</div>
+														<div class="cards-tabs-item__price">2 500 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-1.webp" type="image/webp" /><img src="assets/images/card-options-1.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Белый</div>
+														<div class="cards-tabs-item__price">2 500 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-1.webp" type="image/webp" /><img src="assets/images/card-options-1.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Белый</div>
+														<div class="cards-tabs-item__price">2 500 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-1.webp" type="image/webp" /><img src="assets/images/card-options-1.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Белый</div>
+														<div class="cards-tabs-item__price">2 500 ₽</div>
+													</div>
+												</div>
+											</div>
+											<div class="dop-option">
+												<div class="dop-option__ttl">Дополнительная опция</div><label class="type-modal-body__row">
+													<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect width="24" height="24" fill="#02343B"></rect>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+														</svg></div>
+													<div class="dop-option__caption">Изготовление технического отверстия</div>
+												</label>
+											</div>
+											<div class="cards-tabs">
+												<div class="cards-tabs__ttl">Фронтальные панели</div>
+												<div class="cards-tabs__row" data-product-tabs>
+													<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-2.webp" type="image/webp" /><img src="assets/images/card-options-2.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Без панелей</div>
+														<div class="cards-tabs-item__price">0 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-2.webp" type="image/webp" /><img src="assets/images/card-options-2.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Слева</div>
+														<div class="cards-tabs-item__price">40 000 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-2.webp" type="image/webp" /><img src="assets/images/card-options-2.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Слева</div>
+														<div class="cards-tabs-item__price">40 000 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-2.webp" type="image/webp" /><img src="assets/images/card-options-2.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Слева</div>
+														<div class="cards-tabs-item__price">40 000 ₽</div>
+													</div>
+												</div>
+											</div>
+											<div class="cards-tabs">
+												<div class="cards-tabs__ttl">Боковые панели</div>
+												<div class="cards-tabs__row" data-product-tabs>
+													<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-3.webp" type="image/webp" /><img src="assets/images/card-options-3.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Без панелей</div>
+														<div class="cards-tabs-item__price">0 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-3.webp" type="image/webp" /><img src="assets/images/card-options-3.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Изголовье</div>
+														<div class="cards-tabs-item__price">40 000 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-3.webp" type="image/webp" /><img src="assets/images/card-options-3.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Изголовье</div>
+														<div class="cards-tabs-item__price">40 000 ₽</div>
+													</div>
+													<div class="cards-tabs-item" data-product-tab>
+														<div class="cards-tabs-item__img">
+															<picture>
+																<source srcset="assets/images/webp/card-options-3.webp" type="image/webp" /><img src="assets/images/card-options-3.jpeg" alt="" />
+															</picture>
+														</div>
+														<div class="cards-tabs-item__ttl">Изголовье</div>
+														<div class="cards-tabs-item__price">40 000 ₽</div>
 													</div>
 												</div>
 											</div>
@@ -616,11 +758,46 @@
 					<div class="modal__container">
 						<div class="modal__title moniqa">Оформить заказ</div>
 						<div class="order-modal-info">
-							<div class="order-modal-info__top"></div>
-							<div class="order-modal-info__row"></div>
-							<div class="order-modal-info__bottom"></div>
+							<div class="order-modal-info__top">
+								<div class="order-modal-ttls">Orlando 170. Встраиваемая ванна из камня</div>
+							</div>
+							<div class="order-modal-info__row">
+								<div class="order-modal-info__item">
+									<div class="ttl">Материал</div>
+									<div class="txt">S-Sense</div>
+								</div>
+								<div class="order-modal-info__item">
+									<div class="ttl">Тип покрытия</div>
+									<div class="txt">Глянцевое</div>
+								</div>
+								<div class="order-modal-info__num">59 638 ₽</div>
+							</div>
+							<div class="order-modal-info__row">
+								<div class="order-modal-info__item">
+									<div class="ttl">Цвет внутри</div><img class="color" src="assets/images/colors/color3.svg" alt="" />
+								</div>
+								<div class="order-modal-info__num">62 390 ₽</div>
+							</div>
+							<div class="order-modal-info__row">
+								<div class="order-modal-info__item">
+									<div class="ttl">Цвет снаружи</div><img class="color" src="assets/images/colors/color3.svg" alt="" />
+								</div>
+								<div class="order-modal-info__num">0 ₽</div>
+							</div>
+							<div class="order-modal-info__row">
+								<div class="order-modal-info__item">
+									<div class="ttl">Дренаж</div><img class="pic" src="assets/images/card-options-1.jpeg" alt="" />
+								</div>
+								<div class="order-modal-info__item">
+									<div class="ttl">Цвет</div>
+									<div class="txt">Хром</div>
+								</div>
+								<div class="order-modal-info__num">0 ₽</div>
+							</div>
+							<div class="order-modal-info__bottom"><span class="ttl">Итого</span><span class="total">122 028 ₽</span></div>
 						</div>
-						<form class="order-modal-form"><input class="form-input" placeholder="Имя*" required="required" data-input="" /><input class="form-input" placeholder="Город*" required="required" data-input="" /><input class="form-input" type="number" placeholder="Телефон" required="required" data-input="" /><input class="form-input" placeholder="E-mail*" required="required" data-input="" /><textarea class="form-input textarea" placeholder="Вопрос или комментарий" data-input=""></textarea>
+						<form class="order-modal-form">
+							<div class="order-modal-ttls">Укажите контактные данные и мы предоставим список диллеров в вашем регионе</div><input class="form-input" placeholder="Имя*" required="required" data-input="" /><input class="form-input" placeholder="Город*" required="required" data-input="" /><input class="form-input" type="number" placeholder="Телефон" required="required" data-input="" /><input class="form-input" placeholder="E-mail*" required="required" data-input="" /><textarea class="form-input textarea" placeholder="Вопрос или комментарий" data-input=""></textarea>
 							<div class="about-form__bottom"><label class="checkbox-block">
 									<div class="checkbox-box"><input class="checkbox" type="checkbox" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<rect width="24" height="24" fill="#02343B"></rect>
