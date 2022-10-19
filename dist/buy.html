@@ -11,7 +11,7 @@
 		<link rel="apple-touch-icon" href="assets/images/favicon-apple.svg">
 		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
-		<link href="810.css" rel="stylesheet">
+		<link href="603.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
 	</head>
 
@@ -514,8 +514,8 @@
 				</div>
 				<div class="callback-modal__body" data-callback-body="data-callback-body">
 					<form class="callback-modal__form" data-parsley-validate="data-parsley-validate" data-callback-form="data-callback-form">
-						<div class="form-item" data-animation="fade-up"><input class="form-input" required="required" data-input="" /><span class="form-item__placeholder">Имя*</span></div>
-						<div class="form-item" data-animation="fade-up"><input class="form-input" type="number" required="required" data-input="" /><span class="form-item__placeholder">Телефон</span></div><label class="checkbox-block" data-animation="fade-up">
+						<div class="form-item" data-animation="fade-up"><input class="form-input" required="required" data-input="" data-parsley-string="" /><span class="form-item__placeholder">Имя*</span></div>
+						<div class="form-item" data-animation="fade-up"><input class="form-input" type="string" required="required" data-input="" data-phone-input="" /><span class="form-item__placeholder">Телефон</span></div><label class="checkbox-block" data-animation="fade-up">
 							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" checked="checked" required="required" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<rect width="24" height="24" fill="#02343B"></rect>
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
@@ -529,8 +529,16 @@
 							</div><input type="submit" value="отправить" />
 						</label>
 					</form>
-					<div class="callback-modal__response">Спасибо, мы получили ваш запрос и свяжемся<br />с вами в ближайшее время</div>
 				</div>
+			</div>
+			<div class="response-modal modal" data-fancy-modal="response">
+				<div class="response-modal__container" data-animation="fade-up">
+					<div class="response-modal__title moniqa">Отправлено</div>
+					<p class="response-modal__text">Спасибо, мы получили ваш запрос и свяжемся с вами в ближайшее время</p>
+				</div>
+				<div class="modal__close" data-fancybox-close="" data-animation="fade-up"><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+					</svg></div>
 			</div>
 		</div>
 		<script src="https://api-maps.yandex.ru/2.1/?apikey=6a422e4a-ba48-4933-9b21-47dc52e6f0e2&amp;lang=ru_RU"></script>
