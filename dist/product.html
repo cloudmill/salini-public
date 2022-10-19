@@ -132,7 +132,7 @@
 							<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
 								</svg></div>
-						</div>Заказать за 59 638 ₽
+						</div>Заказать за <span data-total-price>59 638 </span>&nbsp;₽
 					</button>
 				</div>
 				<div class="card-body">
@@ -363,27 +363,27 @@
 									<div class="block">
 										<div class="card-content__big-ttl moniqa">Модификации</div>
 										<div class="col-1">
-											<div class="options-tabs">
+											<div class="options-tabs" data-product-options>
 												<div class="options-tabs-block">
 													<div class="options-tabs-block__ttl">Материал</div>
-													<div class="options-tabs-block__row" data-product-tabs><button class="options-tabs-block__item active" data-product-tab>S-Sense</button><button class="options-tabs-block__item" data-product-tab>S-Stone</button></div>
+													<div class="options-tabs-block__row" data-product-tabs data-materials><button class="options-tabs-block__item active" data-product-tab>S-Sense</button><button class="options-tabs-block__item" data-product-tab>S-Stone</button></div>
 												</div>
 												<div class="options-tabs-block">
 													<div class="options-tabs-block__ttl">Покрытие</div>
-													<div class="options-tabs-block__row" data-product-tabs><button class="options-tabs-block__item active" data-product-tab>Глянцевое</button><button class="options-tabs-block__item" data-product-tab>Матовое</button></div>
+													<div class="options-tabs-block__row" data-product-tabs data-coating><button class="options-tabs-block__item active" data-product-tab>Глянцевое</button><button class="options-tabs-block__item" data-product-tab>Матовое</button></div>
 												</div>
 												<div class="options-tabs-block">
 													<div class="options-tabs-block__ttl">Изменить цвет</div>
 													<div class="options-tabs-block__row" data-product-tabs><button class="options-tabs-block__item active" data-product-tab>Полностью</button><button class="options-tabs-block__item" data-product-tab>С внешней стороны</button></div>
 												</div>
 											</div>
-											<div class="colors-tabs" data-product-tabs>
-												<div class="colors-tabs-block">
+											<div class="colors-tabs" data-product-tabs data-colors>
+												<div class="colors-tabs-block" data-color-price="0">
 													<div class="colors-tabs-block__ttl"><span>Базовый цвет</span><span>0 ₽</span></div>
 													<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
 												</div>
-												<div class="colors-tabs-block">
-													<div class="colors-tabs-block__ttl"><span>Цвет по RAL +50%</span><span>28 790 ₽</span></div>
+												<div class="colors-tabs-block" data-color-price="28 790">
+													<div class="colors-tabs-block__ttl">Цвет по RAL +50%&nbsp;<span>28 790 </span>&nbsp;₽</div>
 													<div class="colors-tabs-block__row">
 														<div class="swiper" id="colors-slider">
 															<div class="swiper-wrapper">
@@ -404,7 +404,7 @@
 											</div>
 											<div class="cards-tabs">
 												<div class="cards-tabs__ttl">Дренаж</div>
-												<div class="cards-tabs__row" data-product-tabs>
+												<div class="cards-tabs__row" data-product-tabs data-drainage>
 													<div class="cards-tabs-item active" data-product-tab>
 														<div class="cards-tabs-item__img">
 															<picture>
@@ -412,7 +412,7 @@
 															</picture>
 														</div>
 														<div class="cards-tabs-item__ttl">Белый</div>
-														<div class="cards-tabs-item__price">2 500 ₽</div>
+														<div class="cards-tabs-item__price"><span data-drainage-price>0 </span>&nbsp;₽</div>
 													</div>
 													<div class="cards-tabs-item" data-product-tab>
 														<div class="cards-tabs-item__img">
@@ -421,7 +421,7 @@
 															</picture>
 														</div>
 														<div class="cards-tabs-item__ttl">Белый</div>
-														<div class="cards-tabs-item__price">2 500 ₽</div>
+														<div class="cards-tabs-item__price"><span data-drainage-price>2 500 </span>&nbsp;₽</div>
 													</div>
 													<div class="cards-tabs-item" data-product-tab>
 														<div class="cards-tabs-item__img">
@@ -430,7 +430,7 @@
 															</picture>
 														</div>
 														<div class="cards-tabs-item__ttl">Белый</div>
-														<div class="cards-tabs-item__price">2 500 ₽</div>
+														<div class="cards-tabs-item__price"><span data-drainage-price>2 500 </span>&nbsp;₽</div>
 													</div>
 													<div class="cards-tabs-item" data-product-tab>
 														<div class="cards-tabs-item__img">
@@ -439,7 +439,7 @@
 															</picture>
 														</div>
 														<div class="cards-tabs-item__ttl">Белый</div>
-														<div class="cards-tabs-item__price">2 500 ₽</div>
+														<div class="cards-tabs-item__price"><span data-drainage-price>2 500 </span>&nbsp;₽</div>
 													</div>
 												</div>
 											</div>
@@ -542,7 +542,7 @@
 										</div>
 									</div>
 									<div class="designers-block">
-										<div class="designers-block__ttl moniqa">Дизайнеры</div>
+										<div class="designers-block__ttl moniqa" id="designers">Дизайнеры</div>
 										<div class="designers-block__row">
 											<div class="col1">
 												<div class="ttl">Маурицио Мандзони</div>
@@ -764,37 +764,37 @@
 							<div class="order-modal-info__row">
 								<div class="order-modal-info__item">
 									<div class="ttl">Материал</div>
-									<div class="txt">S-Sense</div>
+									<div class="txt" data-materials-order="data-materials-order">S-Sense</div>
 								</div>
 								<div class="order-modal-info__item">
 									<div class="ttl">Тип покрытия</div>
-									<div class="txt">Глянцевое</div>
+									<div class="txt" data-coating-order="data-coating-order">Глянцевое</div>
 								</div>
-								<div class="order-modal-info__num">59 638 ₽</div>
+								<div class="order-modal-info__num"><span data-price="data-price">59 638 </span>&nbsp;₽</div>
 							</div>
 							<div class="order-modal-info__row">
 								<div class="order-modal-info__item">
-									<div class="ttl">Цвет внутри</div><img class="color" src="assets/images/colors/color3.svg" alt="" />
+									<div class="ttl">Цвет внутри</div><img class="color" src="assets/images/colors/color3.svg" alt="" data-color-order="data-color-order" />
 								</div>
-								<div class="order-modal-info__num">62 390 ₽</div>
+								<div class="order-modal-info__num"><span data-color-price-order="data-color-price-order" data-price="data-price">62 390 </span>&nbsp;₽</div>
 							</div>
 							<div class="order-modal-info__row">
 								<div class="order-modal-info__item">
-									<div class="ttl">Цвет снаружи</div><img class="color" src="assets/images/colors/color3.svg" alt="" />
+									<div class="ttl">Цвет снаружи</div><img class="color" src="assets/images/colors/color3.svg" alt="" data-color-order="data-color-order" />
 								</div>
-								<div class="order-modal-info__num">0 ₽</div>
+								<div class="order-modal-info__num"><span data-color-price-order="data-color-price-order" data-price="data-price">0 </span>&nbsp;₽</div>
 							</div>
 							<div class="order-modal-info__row">
 								<div class="order-modal-info__item">
-									<div class="ttl">Дренаж</div><img class="pic" src="assets/images/card-options-1.jpeg" alt="" />
+									<div class="ttl">Дренаж</div><img class="pic" src="assets/images/card-options-1.jpeg" alt="" data-drainage-img="data-drainage-img" />
 								</div>
 								<div class="order-modal-info__item">
 									<div class="ttl">Цвет</div>
-									<div class="txt">Хром</div>
+									<div class="txt" data-drainage-ttl="data-drainage-ttl">Хром</div>
 								</div>
-								<div class="order-modal-info__num">0 ₽</div>
+								<div class="order-modal-info__num"><span data-drainage-price-order="data-drainage-price-order" data-price="data-price">0 </span>&nbsp;₽</div>
 							</div>
-							<div class="order-modal-info__bottom"><span class="ttl">Итого</span><span class="total">122 028 ₽</span></div>
+							<div class="order-modal-info__bottom"><span class="ttl">Итого</span><span class="total"> <span data-total-price="data-total-price">122 028 </span>&nbsp;₽</span></div>
 						</div>
 						<form class="order-modal-form">
 							<div class="order-modal-ttls">Укажите контактные данные и мы предоставим список диллеров в вашем регионе</div><input class="form-input" placeholder="Имя*" required="required" data-input="" /><input class="form-input" placeholder="Город*" required="required" data-input="" /><input class="form-input" type="number" placeholder="Телефон" required="required" data-input="" /><input class="form-input" placeholder="E-mail*" required="required" data-input="" /><textarea class="form-input textarea" placeholder="Вопрос или комментарий" data-input=""></textarea>
