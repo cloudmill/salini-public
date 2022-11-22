@@ -134,7 +134,8 @@
 							<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
 								</svg></div>
-						</div><span><span><span>Заказать за </span><span data-total-price>59 638</span></span> <span class="rouble">₽</span></span>
+						</div>
+						<div>Заказать за <span data-total-price>59 638</span> <span class="rouble">a</span></div>
 					</button>
 				</div>
 				<div class="card-body" id="white-sec-mob">
@@ -372,7 +373,7 @@
 									</div>
 									<div class="block options-block">
 										<div class="card-content__big-ttl moniqa" id="sets" data-section>Модификации</div>
-										<div class="col-1">
+										<div class="col-1 relative">
 											<div class="options-tabs-block main-tab" data-tabs-panel="options">
 												<div class="options-tabs-block__ttl">Материал</div>
 												<div class="options-tabs-block__row" data-product-tabs data-opts-set="materials"><button class="options-tabs-block__item active" data-tab="1"><span data-opt-ttl data-opt-price="0">S-Sense</span></button><button class="options-tabs-block__item" data-tab="2"><span data-opt-ttl data-opt-price="17555">S-Stone</span></button></div>
@@ -380,22 +381,23 @@
 											<div class="options-contents" data-tab-content-container="options">
 												<div class="options-contents__item active" data-tab-content="1">
 													<div class="options-tabs" data-product-options>
+														<div class="options-tabs-empty"></div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Покрытие</div>
 															<div class="options-tabs-block__row" data-product-tabs data-opts-set="coating"><button class="options-tabs-block__item active" data-product-tab><span data-opt-ttl data-opt-price="0">Глянцевое</span></button><button class="options-tabs-block__item" data-product-tab><span data-opt-ttl data-opt-price="9999">Матовое</span></button></div>
 														</div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Изменить цвет</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1"><button class="options-tabs-block__item active" data-product-tab data-color-tab="full">Полностью</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external">С внешней стороны</button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tabs-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
 														</div>
 													</div>
-													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full">
-														<div class="colors-tabs-block" data-color-price="0" data-color-price-base>
-															<div class="colors-tabs-block__ttl"><span>Базовый цвет</span><span><span>0 </span><span class="rouble">a</span></span></div>
+													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors">
+														<div class="colors-tabs-block active" data-color-price="0" data-color-price-base data-tab-content="1">
+															<div class="colors-tabs-block__ttl"><span>Цвет по RAL</span></div>
 															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
 														</div>
-														<div class="colors-tabs-block" data-color-price="28790">
-															<div class="colors-tabs-block__ttl">Цвет по RAL +50%&nbsp;<span><span>28 790 </span><span class="rouble">a</span></span></div>
+														<div class="colors-tabs-block" data-color-price="28790" data-tab-content="2">
+															<div class="colors-tabs-block__ttl">Цвет по RAL</div>
 															<div class="colors-tabs-block__row">
 																<div class="swiper" id="colors-slider">
 																	<div class="swiper-wrapper">
@@ -407,8 +409,23 @@
 																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
 																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
 																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="colors-tabs-block" data-color-price="40000" data-tab-content="3">
+															<div class="colors-tabs-block__ttl">Цвет по RAL</div>
+															<div class="colors-tabs-block__row">
+																<div class="swiper" id="colors-slider">
+																	<div class="swiper-wrapper">
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color2.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color3.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color4.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color5.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color6.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
 																	</div>
 																</div>
 															</div>
@@ -442,22 +459,23 @@
 												</div>
 												<div class="options-contents__item" data-tab-content="2">
 													<div class="options-tabs" data-product-options>
+														<div class="options-tabs-empty"></div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Покрытие</div>
 															<div class="options-tabs-block__row" data-product-tabs data-opts-set="coating"><button class="options-tabs-block__item active" data-product-tab><span data-opt-ttl data-opt-price="0">Глянцевое</span></button><button class="options-tabs-block__item" data-product-tab><span data-opt-ttl data-opt-price="9999">Матовое</span></button></div>
 														</div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Изменить цвет</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1"><button class="options-tabs-block__item active" data-product-tab data-color-tab="full">Полностью</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external">С внешней стороны</button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tabs-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
 														</div>
 													</div>
-													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full">
-														<div class="colors-tabs-block" data-color-price="0" data-color-price-base>
-															<div class="colors-tabs-block__ttl"><span>Базовый цвет</span><span><span>0 </span><span class="rouble">a</span></span></div>
+													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors">
+														<div class="colors-tabs-block active" data-color-price="0" data-color-price-base data-tab-content="1">
+															<div class="colors-tabs-block__ttl"><span>Цвет по RAL</span></div>
 															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
 														</div>
-														<div class="colors-tabs-block" data-color-price="28790">
-															<div class="colors-tabs-block__ttl">Цвет по RAL +50%&nbsp;<span><span>28 790 </span><span class="rouble">a</span></span></div>
+														<div class="colors-tabs-block" data-color-price="28790" data-tab-content="2">
+															<div class="colors-tabs-block__ttl">Цвет по RAL</div>
 															<div class="colors-tabs-block__row">
 																<div class="swiper" id="colors-slider">
 																	<div class="swiper-wrapper">
@@ -469,8 +487,23 @@
 																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
 																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
 																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/white.svg" alt=""></button></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="colors-tabs-block" data-color-price="40000" data-tab-content="3">
+															<div class="colors-tabs-block__ttl">Цвет по RAL</div>
+															<div class="colors-tabs-block__row">
+																<div class="swiper" id="colors-slider">
+																	<div class="swiper-wrapper">
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color2.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color3.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color4.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color5.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color6.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
 																	</div>
 																</div>
 															</div>
@@ -725,16 +758,16 @@
 																		<div class="bottom__row">
 																			<div class="info">
 																				<div class="info__item">
-																					<div class="info__ttl">Длина</div>
-																					<div class="info__value">1900 мм</div>
+																					<div class="info__ttl">Длина, мм</div>
+																					<div class="info__value">1900</div>
 																				</div>
 																				<div class="info__item">
-																					<div class="info__ttl">Ширина</div>
-																					<div class="info__value">1000 мм</div>
+																					<div class="info__ttl">Ширина, мм</div>
+																					<div class="info__value">1000</div>
 																				</div>
 																				<div class="info__item">
-																					<div class="info__ttl">Глубина</div>
-																					<div class="info__value">600 мм</div>
+																					<div class="info__ttl">Глубина, мм</div>
+																					<div class="info__value">600</div>
 																				</div>
 																			</div>
 																			<div class="brown-link catalog-card__link">
