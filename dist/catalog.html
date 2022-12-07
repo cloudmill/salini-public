@@ -636,60 +636,14 @@
 				<div class="catalog-menu__container">
 					<div class="catalog-menu__content">
 						<div class="catalog-menu__top">
-							<div class="catalog-menu__title moniqa">Фильтры</div>
+							<div class="catalog-menu__top-title moniqa">Фильтры</div>
 							<div class="catalog-menu__close" data-menu-btn="close"><svg class="catalog-menu__close-svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
 								</svg></div>
 						</div>
 						<ul class="catalog-menu__list">
-							<li class="catalog-menu__item" data-menu-btn="openModal" data-modal-id="0">
-								<div class="catalog-menu__text">цена</div>
-								<div class="catalog-menu__caption">
-									<div class="catalog-menu__caption-text" data-modal-value=""></div><span class="catalog-menu__span"></span>
-								</div>
-								<div class="catalog-menu__icon"><svg class="catalog-menu__svg" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M12.8327 1.66667L6.99935 7.5L1.16602 1.66667" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-									</svg></div>
-							</li>
-							<li class="catalog-menu__item" data-menu-btn="openModal" data-modal-id="1">
-								<div class="catalog-menu__text">размер</div>
-								<div class="catalog-menu__caption">
-									<div class="catalog-menu__caption-text" data-modal-value=""></div><span class="catalog-menu__span"></span>
-								</div>
-								<div class="catalog-menu__icon"><svg class="catalog-menu__svg" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M12.8327 1.66667L6.99935 7.5L1.16602 1.66667" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-									</svg></div>
-							</li>
-							<li class="catalog-menu__item" data-menu-btn="openModal" data-modal-id="2">
-								<div class="catalog-menu__text">тип</div>
-								<div class="catalog-menu__caption">
-									<div class="catalog-menu__caption-text" data-modal-value=""></div><span class="catalog-menu__span"></span>
-								</div>
-								<div class="catalog-menu__icon"><svg class="catalog-menu__svg" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M12.8327 1.66667L6.99935 7.5L1.16602 1.66667" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-									</svg></div>
-							</li>
-						</ul>
-						<div class="catalog-accept">
-							<div class="catalog-accept__btn" data-menu-btn="accept">
-								<div class="brown-link brown-link--sm">
-									<div class="brown-link__container"><svg class="brown-link__svg brown-link__svg--sm" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
-										</svg></div>
-								</div>
-								<div class="catalog-accept__text">применить</div>
-							</div>
-						</div>
-					</div>
-					<div class="catalog-menu__modals">
-						<div class="catalog-menu__modal" data-menu-modal="0">
-							<div class="catalog-menu__modal-container">
-								<div class="catalog-menu__modal-top" data-menu-btn="closeModal">
-									<div class="catalog-menu__modal-icon"><svg class="catalog-menu__modal-svg" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M12.8327 1.66667L6.99935 7.5L1.16602 1.66667" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-										</svg></div>
-									<div class="catalog-menu__title">Цена</div>
-								</div>
+							<li class="catalog-menu__item">
+								<div class="catalog-menu__title">Цена</div>
 								<div class="catalog-menu__body" data-range="">
 									<div class="catalog-menu__range">
 										<div data-range-range="" data-range-min="30000" data-range-max="1000000"></div>
@@ -707,16 +661,9 @@
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="catalog-menu__modal" data-menu-modal="1">
-							<div class="catalog-menu__modal-container">
-								<div class="catalog-menu__modal-top" data-menu-btn="closeModal">
-									<div class="catalog-menu__modal-icon"><svg class="catalog-menu__modal-svg" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M12.8327 1.66667L6.99935 7.5L1.16602 1.66667" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-										</svg></div>
-									<div class="catalog-menu__title">Размер</div>
-								</div>
+							</li>
+							<li class="catalog-menu__item">
+								<div class="catalog-menu__title">размер</div>
 								<div class="catalog-menu__body">
 									<div class="catalog-menu__block" data-range="">
 										<div class="catalog-menu__heading">Длина, мм</div>
@@ -755,37 +702,57 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</li>
+							<li class="catalog-menu__item">
+								<div class="catalog-menu__title">размер</div>
+								<ul class="catalog-menu__checkboxes">
+									<li class="catalog-menu__box"><label class="catalog-menu__label">
+											<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect width="24" height="24" fill="#02343B"></rect>
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+												</svg></div>
+											<div class="catalog-menu__text">угловая</div>
+										</label></li>
+									<li class="catalog-menu__box"><label class="catalog-menu__label">
+											<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect width="24" height="24" fill="#02343B"></rect>
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+												</svg></div>
+											<div class="catalog-menu__text">отдельностоящая</div>
+										</label></li>
+									<li class="catalog-menu__box"><label class="catalog-menu__label">
+											<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect width="24" height="24" fill="#02343B"></rect>
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+												</svg></div>
+											<div class="catalog-menu__text">угловая</div>
+										</label></li>
+									<li class="catalog-menu__box"><label class="catalog-menu__label">
+											<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect width="24" height="24" fill="#02343B"></rect>
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+												</svg></div>
+											<div class="catalog-menu__text">отдельностоящая</div>
+										</label></li>
+									<li class="catalog-menu__box"><label class="catalog-menu__label">
+											<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect width="24" height="24" fill="#02343B"></rect>
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+												</svg></div>
+											<div class="catalog-menu__text">угловая</div>
+										</label></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="catalog-menu__bottom loading" data-menu-btn="accept">
+						<div class="brown-link brown-link--big">
+							<div class="brown-link__container"><svg class="brown-link__svg brown-link__svg--sm" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+								</svg></div>
+							<div class="loader"><span></span></div>
 						</div>
-						<div class="catalog-menu__modal" data-menu-modal="cat">
-							<div class="catalog-menu__modal-container">
-								<div class="catalog-menu__modal-top" data-menu-btn="closeModal">
-									<div class="catalog-menu__modal-icon"><svg class="catalog-menu__modal-svg" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M12.8327 1.66667L6.99935 7.5L1.16602 1.66667" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-										</svg></div>
-									<div class="catalog-menu__title">Размер</div>
-								</div>
-								<div class="catalog-menu__body">
-									<div class="categories">
-										<div class="categories__item">
-											<div class="category category--darken" data-menu-category="">Ванна белая</div>
-										</div>
-										<div class="categories__item">
-											<div class="category category--darken" data-menu-category="">Ванна матовая</div>
-										</div>
-										<div class="categories__item">
-											<div class="category category--darken" data-menu-category="">Ванна глянцевая</div>
-										</div>
-										<div class="categories__item">
-											<div class="category category--darken" data-menu-category="">Ванна черная</div>
-										</div>
-										<div class="categories__item">
-											<div class="category category--darken" data-menu-category="">Ванна красная</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<div class="catalog-menu__caption">применить</div>
 					</div>
 				</div>
 			</div>

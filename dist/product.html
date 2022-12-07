@@ -123,12 +123,17 @@
 					</div>
 				</div>
 				<div class="card-anchors" data-anchor-links>
-					<div class="card-anchors__row" data-product-tabs>
-						<div class="card-anchors__item" data-scroll="#about" data-product-tab data-page-link>о продукте</div>
-						<div class="card-anchors__item" data-scroll="#sets" data-product-tab data-page-link>Сеты</div>
-						<div class="card-anchors__item" data-scroll="#designers" data-product-tab data-page-link>Дизайнеры</div>
-						<div class="card-anchors__item" data-scroll="#materials" data-product-tab data-page-link>материалы для скачивания</div>
-						<div class="card-anchors__item" data-scroll="#delivery" data-product-tab data-page-link>Доставка и оплата</div>
+					<div class="card-anchors__top">
+						<div class="card-anchors__row" data-product-tabs>
+							<div class="card-anchors__item" data-scroll="#about" data-product-tab data-page-link>о продукте</div>
+							<div class="card-anchors__item" data-scroll="#sets" data-product-tab data-page-link>Сеты</div>
+							<div class="card-anchors__item" data-scroll="#designers" data-product-tab data-page-link>Дизайнеры</div>
+							<div class="card-anchors__item" data-scroll="#materials" data-product-tab data-page-link>материалы для скачивания</div>
+							<div class="card-anchors__item" data-scroll="#delivery" data-product-tab data-page-link>Доставка и оплата</div>
+						</div><a class="card-anchors__download" href="" download><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M8.66309 12.6811L13.5738 17.4916L14.7984 17.4916L19.7092 12.6811L18.4845 11.431L15.0611 14.7846L15.0611 5.9917L13.3111 5.9917L13.3111 14.7846L9.8877 11.431L8.66309 12.6811Z" fill="#DCDCDC"></path>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M6.94165 19.7916V16.8333H5.19165V21.5416H23.0416V16.8333H21.2916V19.7916H6.94165Z" fill="#DCDCDC"></path>
+							</svg>товары в наличии</a>
 					</div><button class="card-anchors__order" data-fancy-button="order">
 						<div class="brown-link">
 							<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -376,10 +381,10 @@
 										<div class="col-1 relative">
 											<div class="options-tabs-block main-tab" data-tabs-panel="options">
 												<div class="options-tabs-block__ttl">Материал</div>
-												<div class="options-tabs-block__row" data-product-tabs data-opts-set="materials"><button class="options-tabs-block__item active" data-tab="1"><span data-opt-ttl data-opt-price="0">S-Sense</span></button><button class="options-tabs-block__item" data-tab="2"><span data-opt-ttl data-opt-price="17555">S-Stone</span></button></div>
+												<div class="options-tabs-block__row" data-product-tabs data-opts-set="materials"><button class="options-tabs-block__item active" data-tab="opt1"><span data-opt-ttl data-opt-price="0">S-Sense</span></button><button class="options-tabs-block__item" data-tab="opt2"><span data-opt-ttl data-opt-price="17555">S-Stone</span></button></div>
 											</div>
 											<div class="options-contents" data-tab-content-container="options">
-												<div class="options-contents__item active" data-tab-content="1">
+												<div class="options-contents__item active" data-tab-content="opt1">
 													<div class="options-tabs" data-product-options>
 														<div class="options-tabs-empty"></div>
 														<div class="options-tabs-block">
@@ -455,9 +460,48 @@
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
 															</div>
 														</div>
+													</div>
+													<div class="dop-option">
+														<div class="dop-option__ttl">Дополнительная опция</div><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Изготовление технического отверстия<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Экраны<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Скрытый люк в экране<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Увеличение бортов<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Обрезка бортов<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Слив-перелив<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label>
 													</div>
 												</div>
-												<div class="options-contents__item" data-tab-content="2">
+												<div class="options-contents__item" data-tab-content="opt2">
 													<div class="options-tabs" data-product-options>
 														<div class="options-tabs-empty"></div>
 														<div class="options-tabs-block">
@@ -533,47 +577,52 @@
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
 															</div>
 														</div>
+													</div>
+													<div class="dop-option">
+														<div class="dop-option__ttl">Дополнительная опция</div><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Изготовление технического отверстия<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Экраны<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Скрытый люк в экране<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Увеличение бортов<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Обрезка бортов<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label><label class="type-modal-body__row">
+															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
+															<div class="dop-option__caption">Слив-перелив<svg class="tooltip" data-fancy-button="options" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
+																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</label>
 													</div>
 												</div>
 											</div>
 										</div>
 										<div class="col-2">
 											<div class="options-contents" data-tab-content-container="options">
-												<div class="options-contents__item active" data-tab-content="1">
-													<picture>
-														<source srcset="assets/images/webp/product-opt.webp" type="image/webp" /><img src="assets/images/product-opt.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="options-contents__item" data-tab-content="2">
-													<picture>
-														<source srcset="assets/images/webp/product-opt.webp" type="image/webp" /><img src="assets/images/product-opt.jpeg" alt="" />
-													</picture>
-												</div>
-											</div>
-											<div class="only-tablet">
-												<div class="dop-option">
-													<div class="dop-option__ttl">Дополнительная опция</div><label class="type-modal-body__row">
-														<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
-														<div class="dop-option__caption">Изготовление технического отверстия<svg class="tooltip" data-options-tooltip="data-options-tooltip" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
-																<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
-															</svg></div>
-													</label>
-												</div>
-											</div>
-										</div>
-										<div class="col-3">
-											<div class="options-contents" data-tab-content-container="options">
-												<div class="options-contents__item active" data-tab-content="1">
-													<div class="dop-option no-tablet">
-														<div class="dop-option__ttl">Дополнительная опция</div><label class="type-modal-body__row">
-															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
-															<div class="dop-option__caption">Изготовление технического отверстия<svg class="tooltip" data-options-tooltip="data-options-tooltip" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
-																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
-																</svg></div>
-														</label>
-													</div>
+												<div class="options-contents__item active" data-tab-content="opt1">
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Фронтальные панели</div>
 														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop1">
@@ -625,16 +674,7 @@
 														</div>
 													</div>
 												</div>
-												<div class="options-contents__item" data-tab-content="2">
-													<div class="dop-option no-tablet">
-														<div class="dop-option__ttl">Дополнительная опция</div><label class="type-modal-body__row">
-															<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox"><img class="checkbox-done" src="assets/images/svg/checkbox-brown.svg" alt=""></div>
-															<div class="dop-option__caption">Изготовление технического отверстия<svg class="tooltip" data-options-tooltip="data-options-tooltip" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-																	<circle cx="10" cy="10.7241" r="10" fill="#02343B"></circle>
-																	<path d="M10.562 15.7241H9.134V8.62612H10.562V15.7241ZM10.604 7.22612H9.092V5.71412H10.604V7.22612Z" fill="#DCDCDC"></path>
-																</svg></div>
-														</label>
-													</div>
+												<div class="options-contents__item" data-tab-content="opt2">
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Фронтальные панели</div>
 														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop1">
@@ -726,75 +766,118 @@
 									</div>
 									<div class="block big-margin">
 										<div class="card-content__big-ttl moniqa">Интерьерное решение</div>
-										<div class="small-slider product-card" data-product-section="">
-											<div class="small-slider__bg">
-												<div class="product-card__overlay" data-product-overlay=""></div>
-												<picture>
-													<source srcset="assets/images/webp/small-slider-bg.webp" type="image/webp" /><img src="assets/images/small-slider-bg.jpeg" alt="" />
-												</picture>
-											</div>
-											<div class="product-card__wrapper" data-small-slider="">
-												<div class="small-slider__card">
-													<div class="swiper swiper--animation" id="small-product-slider">
-														<div class="swiper-wrapper">
-															<div class="swiper-slide"><a class="catalog-card" href="#"><svg class="catalog-card__svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M25.9387 9.78063H24.8862C23.4349 9.78063 22.257 8.61905 22.2231 7.17522L22.2219 6.06256C22.1366 2.69949 19.3869 0 16.005 0C12.6231 0 9.87221 2.70074 9.78817 6.06256L9.78691 7.1125C9.78691 8.58518 8.59271 9.78189 7.12003 9.78189H6.06132C2.6995 9.86719 0 12.6169 0 16C0 19.3831 2.6995 22.1341 6.06132 22.2181H7.12003C8.57139 22.2181 9.74928 23.381 9.78315 24.8248L9.7844 25.9374C9.8697 29.3005 12.6194 32 16.0013 32C19.3832 32 22.1341 29.2993 22.2181 25.9374L22.2194 24.0634V24.8875C22.2194 23.4148 23.4136 22.2169 24.8862 22.2169H25.9387C29.3005 22.1316 32 19.3819 32 15.9987C32 12.6156 29.3005 9.86593 25.9387 9.78063ZM25.7794 18.6669C23.815 18.6669 22.2231 20.255 22.2231 22.2181H22.2194C20.2562 22.2194 18.6656 23.815 18.6656 25.7781V25.7794C18.6656 27.2521 17.4714 28.4463 15.9988 28.4463C14.5261 28.4463 13.3331 27.2521 13.3319 25.7794V25.7781C13.3319 23.8162 11.7438 22.2219 9.78315 22.2194H9.7731C9.7731 20.2562 8.18127 18.6669 6.21812 18.6669H6.21687C4.74419 18.6669 3.54999 17.4727 3.54999 16C3.54999 14.5273 4.74419 13.3331 6.21561 13.3331H6.21687C8.18002 13.3331 9.77059 11.745 9.77184 9.78189H9.78189C11.745 9.78064 13.3356 8.18628 13.3356 6.22313V6.22187C13.3356 4.7492 14.5298 3.55499 16.0025 3.55499C17.4752 3.55499 18.6681 4.7492 18.6694 6.22187V6.22313C18.6694 8.18503 20.2575 9.77813 22.2181 9.78063H22.2219C22.2231 11.7438 23.8137 13.3331 25.7769 13.3331H25.7781C27.2508 13.3331 28.445 14.5273 28.445 16C28.445 17.4727 27.2508 18.6656 25.7794 18.6669Z" fill="#C5C5C5"></path>
-																		<path d="M15.9989 18.6658C17.4718 18.6658 18.6658 17.4718 18.6658 15.9989C18.6658 14.526 17.4718 13.332 15.9989 13.332C14.526 13.332 13.332 14.526 13.332 15.9989C13.332 17.4718 14.526 18.6658 15.9989 18.6658Z" fill="#C5C5C5"></path>
-																	</svg>
-																	<div class="catalog-card__img">
-																		<picture>
-																			<source srcset="assets/images/webp/catalog-1.webp" type="image/webp" /><img src="assets/images/catalog-1.jpeg" alt="" />
-																		</picture>
-																		<div class="catalog-card__categories categories">
-																			<div class="categories__item">
-																				<div class="category">угловая</div>
-																			</div>
-																			<div class="categories__item">
-																				<div class="category">угловая</div>
-																			</div>
-																		</div>
-																	</div>
-																	<div class="bottom">
-																		<div class="bottom__row">
-																			<div class="info">
-																				<div class="info__item">
-																					<div class="info__ttl">Длина, мм</div>
-																					<div class="info__value">1900</div>
-																				</div>
-																				<div class="info__item">
-																					<div class="info__ttl">Ширина, мм</div>
-																					<div class="info__value">1000</div>
-																				</div>
-																				<div class="info__item">
-																					<div class="info__ttl">Глубина, мм</div>
-																					<div class="info__value">600</div>
-																				</div>
-																			</div>
-																			<div class="brown-link catalog-card__link">
-																				<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-																						<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
-																					</svg></div>
-																			</div>
-																		</div>
-																		<div class="bottom__row">
-																			<div class="ttl moniqa">Greca</div>
-																			<div class="price">от <span>416 000 </span><span class="rouble">a</span></div>
-																		</div>
-																	</div>
-																</a></div>
-														</div>
+										<div class="card-content__slider no-margin">
+											<div class="swiper swiper--animation" id="product-slider2">
+												<div class="swiper-wrapper">
+													<div class="swiper-slide">
+														<picture>
+															<source srcset="assets/images/webp/small-slider-bg.webp" type="image/webp" /><img src="assets/images/small-slider-bg.jpeg" alt="" />
+														</picture>
 													</div>
-													<div class="small-slider__controls"><button class="control" id="small-product-slider-prev">
-															<div class="small-slider__controls-icon"><svg class="small-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<div class="swiper-slide">
+														<picture>
+															<source srcset="assets/images/webp/small-slider-bg.webp" type="image/webp" /><img src="assets/images/small-slider-bg.jpeg" alt="" />
+														</picture>
+													</div>
+												</div>
+												<div class="only-desktop">
+													<div class="main-slider__controls card-content__slider-controls" data-slider-buttons><button class="left" id="product-slider-prev2">
+															<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																	<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2941 22.4141L0.410641 12.3247V10.9251L10.2941 0.835785L11.7228 2.23534L3.50445 10.6249H24V12.6249H3.50445L11.7228 21.0145L10.2941 22.4141Z" fill="#DCDCDC"></path>
 																</svg></div>
-														</button><button class="control" id="small-product-slider-next">
-															<div class="small-slider__controls-icon"><svg class="small-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+														</button><button class="right" id="product-slider-next2">
+															<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 																	<path fill-rule="evenodd" clip-rule="evenodd" d="M13.7059 0.585938L23.5894 10.6753V12.0749L13.7059 22.1642L12.2772 20.7647L20.4956 12.3751H0V10.3751H20.4956L12.2772 1.9855L13.7059 0.585938Z" fill="#DCDCDC"></path>
 																</svg></div>
 														</button></div>
 												</div>
 											</div>
+											<div class="card-content__slider-wrapper">
+												<div class="swiper-pagination swiper-pagination--svg"></div>
+												<div class="only-mobile">
+													<div class="main-slider__controls card-content__slider-controls" data-slider-buttons><button class="left" id="product-slider-prev2">
+															<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2941 22.4141L0.410641 12.3247V10.9251L10.2941 0.835785L11.7228 2.23534L3.50445 10.6249H24V12.6249H3.50445L11.7228 21.0145L10.2941 22.4141Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</button><button class="right" id="product-slider-next2">
+															<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd" d="M13.7059 0.585938L23.5894 10.6753V12.0749L13.7059 22.1642L12.2772 20.7647L20.4956 12.3751H0V10.3751H20.4956L12.2772 1.9855L13.7059 0.585938Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</button></div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="block big-margin">
+										<div class="cards-slider__top">
+											<div class="card-content__big-ttl moniqa">С этим товаром покупают</div>
+											<div class="only-desktop cards-slider__controls main-slider__controls" data-slider-buttons><button class="left" id="cards-slider-prev">
+													<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2941 22.4141L0.410641 12.3247V10.9251L10.2941 0.835785L11.7228 2.23534L3.50445 10.6249H24V12.6249H3.50445L11.7228 21.0145L10.2941 22.4141Z" fill="#DCDCDC"></path>
+														</svg></div>
+												</button><button class="right" id="cards-slider-next">
+													<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M13.7059 0.585938L23.5894 10.6753V12.0749L13.7059 22.1642L12.2772 20.7647L20.4956 12.3751H0V10.3751H20.4956L12.2772 1.9855L13.7059 0.585938Z" fill="#DCDCDC"></path>
+														</svg></div>
+												</button></div>
+										</div>
+										<div class="swiper cards-slider" id="cards-slider">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><a class="catalog-card" href="#"><svg class="catalog-card__svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path d="M25.9387 9.78063H24.8862C23.4349 9.78063 22.257 8.61905 22.2231 7.17522L22.2219 6.06256C22.1366 2.69949 19.3869 0 16.005 0C12.6231 0 9.87221 2.70074 9.78817 6.06256L9.78691 7.1125C9.78691 8.58518 8.59271 9.78189 7.12003 9.78189H6.06132C2.6995 9.86719 0 12.6169 0 16C0 19.3831 2.6995 22.1341 6.06132 22.2181H7.12003C8.57139 22.2181 9.74928 23.381 9.78315 24.8248L9.7844 25.9374C9.8697 29.3005 12.6194 32 16.0013 32C19.3832 32 22.1341 29.2993 22.2181 25.9374L22.2194 24.0634V24.8875C22.2194 23.4148 23.4136 22.2169 24.8862 22.2169H25.9387C29.3005 22.1316 32 19.3819 32 15.9987C32 12.6156 29.3005 9.86593 25.9387 9.78063ZM25.7794 18.6669C23.815 18.6669 22.2231 20.255 22.2231 22.2181H22.2194C20.2562 22.2194 18.6656 23.815 18.6656 25.7781V25.7794C18.6656 27.2521 17.4714 28.4463 15.9988 28.4463C14.5261 28.4463 13.3331 27.2521 13.3319 25.7794V25.7781C13.3319 23.8162 11.7438 22.2219 9.78315 22.2194H9.7731C9.7731 20.2562 8.18127 18.6669 6.21812 18.6669H6.21687C4.74419 18.6669 3.54999 17.4727 3.54999 16C3.54999 14.5273 4.74419 13.3331 6.21561 13.3331H6.21687C8.18002 13.3331 9.77059 11.745 9.77184 9.78189H9.78189C11.745 9.78064 13.3356 8.18628 13.3356 6.22313V6.22187C13.3356 4.7492 14.5298 3.55499 16.0025 3.55499C17.4752 3.55499 18.6681 4.7492 18.6694 6.22187V6.22313C18.6694 8.18503 20.2575 9.77813 22.2181 9.78063H22.2219C22.2231 11.7438 23.8137 13.3331 25.7769 13.3331H25.7781C27.2508 13.3331 28.445 14.5273 28.445 16C28.445 17.4727 27.2508 18.6656 25.7794 18.6669Z" fill="#C5C5C5"></path>
+															<path d="M15.9989 18.6658C17.4718 18.6658 18.6658 17.4718 18.6658 15.9989C18.6658 14.526 17.4718 13.332 15.9989 13.332C14.526 13.332 13.332 14.526 13.332 15.9989C13.332 17.4718 14.526 18.6658 15.9989 18.6658Z" fill="#C5C5C5"></path>
+														</svg>
+														<div class="catalog-card__img">
+															<picture>
+																<source srcset="assets/images/webp/catalog-1.webp" type="image/webp" /><img src="assets/images/catalog-1.jpeg" alt="" />
+															</picture>
+															<div class="catalog-card__categories categories">
+																<div class="categories__item">
+																	<div class="category">угловая</div>
+																</div>
+																<div class="categories__item">
+																	<div class="category">угловая</div>
+																</div>
+															</div>
+														</div>
+														<div class="bottom">
+															<div class="bottom__row">
+																<div class="info">
+																	<div class="info__item">
+																		<div class="info__ttl">Длина, мм</div>
+																		<div class="info__value">1900</div>
+																	</div>
+																	<div class="info__item">
+																		<div class="info__ttl">Ширина, мм</div>
+																		<div class="info__value">1000</div>
+																	</div>
+																	<div class="info__item">
+																		<div class="info__ttl">Глубина, мм</div>
+																		<div class="info__value">600</div>
+																	</div>
+																</div>
+																<div class="brown-link catalog-card__link">
+																	<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+																		</svg></div>
+																</div>
+															</div>
+															<div class="bottom__row">
+																<div class="ttl moniqa">Greca</div>
+																<div class="price">от <span>416 000 </span><span class="rouble">a</span></div>
+															</div>
+														</div>
+													</a></div>
+											</div>
+											<div class="only-mobile cards-slider__controls main-slider__controls" data-slider-buttons><button class="left" id="cards-slider-prev">
+													<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2941 22.4141L0.410641 12.3247V10.9251L10.2941 0.835785L11.7228 2.23534L3.50445 10.6249H24V12.6249H3.50445L11.7228 21.0145L10.2941 22.4141Z" fill="#DCDCDC"></path>
+														</svg></div>
+												</button><button class="right" id="cards-slider-next">
+													<div class="main-slider__controls-icon"><svg class="main-slider__controls-svg" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M13.7059 0.585938L23.5894 10.6753V12.0749L13.7059 22.1642L12.2772 20.7647L20.4956 12.3751H0V10.3751H20.4956L12.2772 1.9855L13.7059 0.585938Z" fill="#DCDCDC"></path>
+														</svg></div>
+												</button></div>
 										</div>
 									</div>
 									<div class="block big-margin">
@@ -1176,6 +1259,16 @@
 							</picture>
 						</div>
 					</div>
+				</div>
+				<div class="modal__close" data-fancybox-close=""><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+					</svg></div>
+			</div>
+			<div class="modal options-modal" data-fancy-modal="options">
+				<div class="modal__container">
+					<div class="modal__title moniqa" data-animation="fade-up">Изготовление технического<br />отверстия</div>
+					<div class="options-modal__txt" data-animation="fade-up">Узнать стоимость данной опции и уточнить интересующую вас информацию Вы можете у диллера в вашем городе.</div>
+					<div class="options-modal__imgs" data-animation="fade-up"><img src="assets/images/tooltip-pic-1.jpeg" alt="" /><img src="assets/images/tooltip-pic-1.jpeg" alt="" /><img src="assets/images/tooltip-pic-1.jpeg" alt="" /><img src="assets/images/tooltip-pic-1.jpeg" alt="" /></div>
 				</div>
 				<div class="modal__close" data-fancybox-close=""><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
