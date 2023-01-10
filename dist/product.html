@@ -121,12 +121,12 @@
 				</div>
 				<div class="card-anchors" data-anchor-links>
 					<div class="card-anchors__top">
-						<div class="card-anchors__row" data-product-tabs>
-							<div class="card-anchors__item" data-scroll="#about" data-product-tab data-page-link>о продукте</div>
-							<div class="card-anchors__item" data-scroll="#sets" data-product-tab data-page-link>Сеты</div>
-							<div class="card-anchors__item" data-scroll="#designers" data-product-tab data-page-link>Дизайнеры</div>
-							<div class="card-anchors__item" data-scroll="#materials" data-product-tab data-page-link>материалы для скачивания</div>
-							<div class="card-anchors__item" data-scroll="#delivery" data-product-tab data-page-link>Доставка и оплата</div>
+						<div class="card-anchors__row" data-tab-panel="anchors">
+							<div class="card-anchors__item" data-scroll="#about" data-tab="1" data-page-link>о продукте</div>
+							<div class="card-anchors__item" data-scroll="#sets" data-tab="2" data-page-link>Сеты</div>
+							<div class="card-anchors__item" data-scroll="#designers" data-tab="3" data-page-link>Дизайнеры</div>
+							<div class="card-anchors__item" data-scroll="#materials" data-tab="4" data-page-link>материалы для скачивания</div>
+							<div class="card-anchors__item" data-scroll="#delivery" data-tab="5" data-page-link>Доставка и оплата</div>
 						</div><a class="card-anchors__download" href="" download><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M8.66309 12.6811L13.5738 17.4916L14.7984 17.4916L19.7092 12.6811L18.4845 11.431L15.0611 14.7846L15.0611 5.9917L13.3111 5.9917L13.3111 14.7846L9.8877 11.431L8.66309 12.6811Z" fill="#DCDCDC"></path>
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M6.94165 19.7916V16.8333H5.19165V21.5416H23.0416V16.8333H21.2916V19.7916H6.94165Z" fill="#DCDCDC"></path>
@@ -157,7 +157,7 @@
 								<div class="card-content">
 									<div class="card-content__big-ttl moniqa" id="about" data-section>О продукте</div>
 									<div class="block card-content__info-table">
-										<div class="top premium-modal-tabs" data-tabs-panel="table"><button class="premium-modal-tabs__item active" data-tab="1">S-sense</button><button class="premium-modal-tabs__item" data-tab="2">S-stone</button></div>
+										<div class="top premium-modal-tabs" data-tab-panel="table"><button class="premium-modal-tabs__item active" data-tab="1">S-sense</button><button class="premium-modal-tabs__item" data-tab="2">S-stone</button></div>
 										<div class="table-content" data-tab-content-container="table">
 											<div class="table-content__item active" data-tab-content="1">
 												<div class="col-1">
@@ -504,7 +504,7 @@
 									<div class="block options-block">
 										<div class="card-content__big-ttl moniqa" id="sets" data-section>Модификации</div>
 										<div class="col-1 relative">
-											<div class="options-tabs-block main-tab" data-tabs-panel="options">
+											<div class="options-tabs-block main-tab" data-tab-panel="options">
 												<div class="options-tabs-block__ttl">Материал</div>
 												<div class="options-tabs-block__row" data-product-tabs data-opts-set="materials"><button class="options-tabs-block__item active" data-tab="opt1"><span data-opt-ttl data-opt-price="0">S-Sense</span></button><button class="options-tabs-block__item" data-tab="opt2"><span data-opt-ttl data-opt-price="17555">S-Stone</span></button></div>
 											</div>
@@ -514,31 +514,31 @@
 														<div class="options-tabs-empty"></div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Покрытие</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="coating"><button class="options-tabs-block__item active" data-product-tab><span data-opt-ttl data-opt-price="0">Глянцевое</span></button><button class="options-tabs-block__item" data-product-tab><span data-opt-ttl data-opt-price="9999">Матовое</span></button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-tab-panel data-opts-set="coating"><button class="options-tabs-block__item active" data-product-tab data-tab="1"><span data-opt-ttl data-opt-price="0">Глянцевое</span></button><button class="options-tabs-block__item" data-product-tab data-tab="2"><span data-opt-ttl data-opt-price="9999">Матовое</span></button></div>
 														</div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Изменить цвет</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tabs-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tab-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
 														</div>
 													</div>
-													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors">
+													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors" data-tab2-panel="circles">
 														<div class="colors-tabs-block active" data-color-price="0" data-color-price-base data-tab-content="1">
 															<div class="colors-tabs-block__ttl"><span>Цвет по RAL</span></div>
-															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
+															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab data-tab2="cir1"><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
 														</div>
 														<div class="colors-tabs-block" data-color-price="28790" data-tab-content="2">
 															<div class="colors-tabs-block__ttl">Цвет по RAL</div>
 															<div class="colors-tabs-block__row">
 																<div class="swiper" id="colors-slider">
 																	<div class="swiper-wrapper">
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color2.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color3.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color4.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color5.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color6.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir2"><img src="assets/images/colors/color2.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir3"><img src="assets/images/colors/color3.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir4"><img src="assets/images/colors/color4.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir5"><img src="assets/images/colors/color5.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir6"><img src="assets/images/colors/color6.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir7"><img src="assets/images/colors/color7.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir8"><img src="assets/images/colors/color8.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir9"><img src="assets/images/colors/color9.svg" alt=""></button></div>
 																	</div>
 																</div>
 															</div>
@@ -548,14 +548,14 @@
 															<div class="colors-tabs-block__row">
 																<div class="swiper" id="colors-slider">
 																	<div class="swiper-wrapper">
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color2.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color3.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color4.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color5.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color6.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir10"><img src="assets/images/colors/color2.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir11"><img src="assets/images/colors/color3.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir12"><img src="assets/images/colors/color4.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir13"><img src="assets/images/colors/color5.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir14"><img src="assets/images/colors/color6.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir15"><img src="assets/images/colors/color7.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir16"><img src="assets/images/colors/color8.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir17"><img src="assets/images/colors/color9.svg" alt=""></button></div>
 																	</div>
 																</div>
 															</div>
@@ -563,23 +563,23 @@
 													</div>
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Дренаж</div>
-														<div class="cards-tabs__row" data-product-tabs data-opts-set="drainage">
-															<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs__row" data-product-tabs data-tab-panel data-opts-set="drainage">
+															<div class="cards-tabs-item active" data-product-tab data-tab="1">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-1.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Белый</div>
 																<div class="cards-tabs-item__price" data-opt-price="0"><span>0 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="2">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-12.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Любой цвет RAL</div>
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="3">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-12.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Любой цвет RAL</div>
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="4">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-12.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Любой цвет RAL</div>
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
@@ -631,31 +631,31 @@
 														<div class="options-tabs-empty"></div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Покрытие</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="coating"><button class="options-tabs-block__item active" data-product-tab><span data-opt-ttl data-opt-price="0">Глянцевое</span></button><button class="options-tabs-block__item" data-product-tab><span data-opt-ttl data-opt-price="9999">Матовое</span></button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-tab-panel data-opts-set="coating"><button class="options-tabs-block__item active" data-product-tab data-tab="1"><span data-opt-ttl data-opt-price="0">Глянцевое</span></button><button class="options-tabs-block__item" data-product-tab data-tab="2"><span data-opt-ttl data-opt-price="9999">Матовое</span></button></div>
 														</div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Изменить цвет</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tabs-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tab-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
 														</div>
 													</div>
-													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors">
+													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors" data-tab2-panel="circles">
 														<div class="colors-tabs-block active" data-color-price="0" data-color-price-base data-tab-content="1">
 															<div class="colors-tabs-block__ttl"><span>Цвет по RAL</span></div>
-															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
+															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab data-tab2="cir1"><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
 														</div>
 														<div class="colors-tabs-block" data-color-price="28790" data-tab-content="2">
 															<div class="colors-tabs-block__ttl">Цвет по RAL</div>
 															<div class="colors-tabs-block__row">
 																<div class="swiper" id="colors-slider">
 																	<div class="swiper-wrapper">
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color2.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color3.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color4.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color5.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color6.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir2"><img src="assets/images/colors/color2.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir3"><img src="assets/images/colors/color3.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir4"><img src="assets/images/colors/color4.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir5"><img src="assets/images/colors/color5.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir6"><img src="assets/images/colors/color6.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir7"><img src="assets/images/colors/color7.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir8"><img src="assets/images/colors/color8.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir9"><img src="assets/images/colors/color9.svg" alt=""></button></div>
 																	</div>
 																</div>
 															</div>
@@ -665,14 +665,14 @@
 															<div class="colors-tabs-block__row">
 																<div class="swiper" id="colors-slider">
 																	<div class="swiper-wrapper">
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color2.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color3.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color4.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color5.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color6.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color7.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color8.svg" alt=""></button></div>
-																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab><img src="assets/images/colors/color9.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir10"><img src="assets/images/colors/color2.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir11"><img src="assets/images/colors/color3.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir12"><img src="assets/images/colors/color4.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir13"><img src="assets/images/colors/color5.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir14"><img src="assets/images/colors/color6.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir15"><img src="assets/images/colors/color7.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir16"><img src="assets/images/colors/color8.svg" alt=""></button></div>
+																		<div class="swiper-slide colors-tabs-block__slide"><button class="colors-tabs-block__item" data-product-tab data-tab2="cir17"><img src="assets/images/colors/color9.svg" alt=""></button></div>
 																	</div>
 																</div>
 															</div>
@@ -680,23 +680,23 @@
 													</div>
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Дренаж</div>
-														<div class="cards-tabs__row" data-product-tabs data-opts-set="drainage">
-															<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs__row" data-product-tabs data-tab-panel data-opts-set="drainage">
+															<div class="cards-tabs-item active" data-product-tab data-tab="1">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-1.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Белый</div>
 																<div class="cards-tabs-item__price" data-opt-price="0"><span>0 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="2">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-12.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Любой цвет RAL</div>
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="3">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-12.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Любой цвет RAL</div>
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="4">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-12.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Любой цвет RAL</div>
 																<div class="cards-tabs-item__price" data-opt-price="2500"><span>2 500 </span><span class="rouble">a</span></div>
@@ -750,23 +750,23 @@
 												<div class="options-contents__item active" data-tab-content="opt1">
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Фронтальные панели</div>
-														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop1">
-															<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop1" data-tab-panel>
+															<div class="cards-tabs-item active" data-product-tab data-tab="1">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Без панелей</div>
 																<div class="cards-tabs-item__price" data-opt-price="0"><span>0 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="2">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Слева</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="3">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Слева</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="4">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Слева</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
@@ -775,23 +775,23 @@
 													</div>
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Боковые панели</div>
-														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop2">
-															<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop2" data-tab-panel>
+															<div class="cards-tabs-item active" data-product-tab data-tab="1">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Без панелей</div>
 																<div class="cards-tabs-item__price" data-opt-price="0"><span>0 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="2">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Изголовье</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="3">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Изголовье</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="4">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Изголовье</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
@@ -802,23 +802,23 @@
 												<div class="options-contents__item" data-tab-content="opt2">
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Фронтальные панели</div>
-														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop1">
-															<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop1" data-tab-panel>
+															<div class="cards-tabs-item active" data-product-tab data-tab="1">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Без панелей</div>
 																<div class="cards-tabs-item__price" data-opt-price="0"><span>0 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="2">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Слева</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="3">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Слева</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="4">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-2.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Слева</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
@@ -827,23 +827,23 @@
 													</div>
 													<div class="cards-tabs">
 														<div class="cards-tabs__ttl">Боковые панели</div>
-														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop2">
-															<div class="cards-tabs-item active" data-product-tab>
+														<div class="cards-tabs__row" data-product-tabs data-opts-set="dop2" data-tab-panel>
+															<div class="cards-tabs-item active" data-product-tab data-tab="1">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Без панелей</div>
 																<div class="cards-tabs-item__price" data-opt-price="0"><span>0 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="2">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Изголовье</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="3">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Изголовье</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
 															</div>
-															<div class="cards-tabs-item" data-product-tab>
+															<div class="cards-tabs-item" data-product-tab data-tab="4">
 																<div class="cards-tabs-item__img"><img src="assets/images/card-options-3.jpeg" alt="" data-opt-img></div>
 																<div class="cards-tabs-item__ttl" data-opt-ttl>Изголовье</div>
 																<div class="cards-tabs-item__price" data-opt-price="40000"><span>40 000 </span><span class="rouble">a</span></div>
@@ -1524,7 +1524,7 @@
 			<div class="modal premium-modal" data-fancy-modal="premium">
 				<div class="modal__container">
 					<div class="modal__title moniqa" data-animation="fade-up">Премиальные материалы</div>
-					<div class="premium-modal-tabs" data-tabs-panel="premium" data-animation="fade-up"><button class="premium-modal-tabs__item active" data-tab="1">S-sense</button><button class="premium-modal-tabs__item" data-tab="2">S-stone</button></div>
+					<div class="premium-modal-tabs" data-tab-panel="premium" data-animation="fade-up"><button class="premium-modal-tabs__item active" data-tab="1">S-sense</button><button class="premium-modal-tabs__item" data-tab="2">S-stone</button></div>
 					<div class="premium-modal-body" data-tab-content-container="premium" data-animation="fade-up">
 						<div class="premium-modal-body__item active" data-tab-content="1">
 							<div class="premium-modal-text">S-Stone — современный композитный материал, в состав которого входят природные минералы и натуральные пигменты, смешанные со смолами на базе ISO/NPG.<br /><br />Благодаря передовой технологии заливки, изделия S-Stone имеют полностью однородную структуру и не нуждаются в дополнительном покрытии.</div>
