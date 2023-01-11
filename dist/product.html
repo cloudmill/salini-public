@@ -518,10 +518,10 @@
 														</div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Изменить цвет</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tab-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tab-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-color-tab="none" data-tab="1"><span data-opt-ttl data-opt-price="0">базовый 0 <span class="rouble">a</span></span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2"><span data-opt-ttl data-opt-price="11111">Полностью +30%</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3"><span data-opt-ttl data-opt-price="20000">С внешней стороны +50%</span></button></div>
 														</div>
 													</div>
-													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors" data-tab2-panel="circles">
+													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="none" data-tab-content-container="colors" data-tab2-panel="circles">
 														<div class="colors-tabs-block active" data-color-price="0" data-color-price-base data-tab-content="1">
 															<div class="colors-tabs-block__ttl"><span>Цвет по RAL</span></div>
 															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab data-tab2="cir1"><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
@@ -635,10 +635,10 @@
 														</div>
 														<div class="options-tabs-block">
 															<div class="options-tabs-block__ttl">Изменить цвет</div>
-															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tab-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-tab="1">базовый 0 <span class="rouble">a</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2">Полностью +30%</button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3">С внешней стороны +50%</button></div>
+															<div class="options-tabs-block__row" data-product-tabs data-opts-set="colors1" data-tab-panel="colors"><button class="options-tabs-block__item active" data-product-tab data-color-tab="none" data-tab="1"><span data-opt-ttl data-opt-price="0">базовый 0 <span class="rouble">a</span></span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="full" data-tab="2"><span data-opt-ttl data-opt-price="11111">Полностью +30%</span></button><button class="options-tabs-block__item" data-product-tab data-color-tab="external" data-tab="3"><span data-opt-ttl data-opt-price="20000">С внешней стороны +50%</span></button></div>
 														</div>
 													</div>
-													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="full" data-tab-content-container="colors" data-tab2-panel="circles">
+													<div class="colors-tabs" data-product-tabs data-opts-set="colors2" data-color-mod="none" data-tab-content-container="colors" data-tab2-panel="circles">
 														<div class="colors-tabs-block active" data-color-price="0" data-color-price-base data-tab-content="1">
 															<div class="colors-tabs-block__ttl"><span>Цвет по RAL</span></div>
 															<div class="colors-tabs-block__row"><button class="colors-tabs-block__item active" data-product-tab data-tab2="cir1"><img src="assets/images/colors/white.svg" alt="" data-color-img-base></button></div>
@@ -1442,55 +1442,67 @@
 							<div class="order-modal-ttls">Orlando 170. Встраиваемая ванна из камня</div>
 						</div>
 						<div class="order-modal-info__row">
-							<div class="order-modal-info__item">
-								<div class="ttl">Материал</div>
-								<div class="txt" data-ttl-order="materials">S-Sense</div>
-							</div>
-							<div class="order-modal-info__item">
-								<div class="ttl">Тип покрытия</div>
-								<div class="txt" data-ttl-order="coating">Глянцевое</div>
+							<div class="order-modal-info__values">
+								<div class="order-modal-info__item">
+									<div class="ttl">Материал</div>
+									<div class="txt" data-ttl-order="materials">S-Sense</div>
+								</div>
+								<div class="order-modal-info__item">
+									<div class="ttl">Тип покрытия</div>
+									<div class="txt" data-ttl-order="coating">Глянцевое</div>
+								</div>
 							</div>
 							<div class="order-modal-info__num"><span data-price="data-price" data-price-order="materials" data-base-price="59638">59 638 </span><span class="rouble">a</span></div>
 						</div>
 						<div class="order-modal-info__row">
-							<div class="order-modal-info__item">
-								<div class="ttl">Цвет внутри</div><img class="color" src="assets/images/colors/color3.svg" alt="" data-color-img-internal="data-color-img-internal" />
+							<div class="order-modal-info__values">
+								<div class="order-modal-info__item">
+									<div class="ttl">Изменение цвета</div>
+									<div class="txt" color-mod-order="color-mod-order">Нет</div>
+								</div>
+								<div class="order-modal-info__item">
+									<div class="ttl">Цвет по RAL</div>
+									<div class="txt">Кремовый</div>
+								</div>
 							</div>
-							<div class="order-modal-info__num"><span data-color-price-order="data-color-price-order" data-color-price-internal="data-color-price-internal" data-price="data-price">62 390 </span><span class="rouble">a</span></div>
+							<div class="order-modal-info__num"><span data-price-order="colors1" data-price="data-price">0 </span><span class="rouble">a</span></div>
 						</div>
 						<div class="order-modal-info__row">
-							<div class="order-modal-info__item">
-								<div class="ttl">Цвет снаружи</div><img class="color" src="assets/images/colors/color3.svg" alt="" data-color-img-external="data-color-img-external" />
-							</div>
-							<div class="order-modal-info__num"><span data-color-price-order="data-color-price-order" data-color-price-external="data-color-price-external" data-price="data-price">0 </span><span class="rouble">a</span></div>
-						</div>
-						<div class="order-modal-info__row">
-							<div class="order-modal-info__item">
-								<div class="ttl">Дренаж</div><img class="pic" src="assets/images/card-options-1.jpeg" alt="" data-img-order="drainage" />
-							</div>
-							<div class="order-modal-info__item">
-								<div class="ttl">Цвет</div>
-								<div class="txt" data-ttl-order="drainage">Хром</div>
+							<div class="order-modal-info__values">
+								<div class="order-modal-info__item">
+									<div class="ttl">Дренаж</div>
+									<div class="txt" data-ttl-order="drainage">Бронза</div>
+								</div>
 							</div>
 							<div class="order-modal-info__num"><span data-price-order="drainage" data-price="data-price">0 </span><span class="rouble">a</span></div>
 						</div>
 						<div class="order-modal-info__row">
-							<div class="order-modal-info__item">
-								<div class="ttl">Фронтальные панели</div><img class="pic" src="assets/images/card-options-2.jpeg" alt="" data-img-order="dop1" />
+							<div class="order-modal-info__values">
+								<div class="order-modal-info__item">
+									<div class="ttl">Дополнительная опция</div>
+									<div class="order-modal-info__col">
+										<div class="txt">Изготовление технического отверстия</div>
+										<div class="txt">Скрытый люк в экране</div>
+									</div>
+								</div>
 							</div>
-							<div class="order-modal-info__item">
-								<div class="ttl">Панели</div>
-								<div class="txt" data-ttl-order="dop1">Хром</div>
+							<div class="order-modal-info__num"><span data-price="data-price">0 </span><span class="rouble">a</span></div>
+						</div>
+						<div class="order-modal-info__row">
+							<div class="order-modal-info__values">
+								<div class="order-modal-info__item">
+									<div class="ttl">Фронтальные панели</div>
+									<div class="txt" data-ttl-order="dop1">Слева</div>
+								</div>
 							</div>
 							<div class="order-modal-info__num"><span data-price-order="dop1" data-price="data-price">0 </span><span class="rouble">a</span></div>
 						</div>
 						<div class="order-modal-info__row">
-							<div class="order-modal-info__item">
-								<div class="ttl">Боковые панели</div><img class="pic" src="assets/images/card-options-3.jpeg" alt="" data-img-order="dop2" />
-							</div>
-							<div class="order-modal-info__item">
-								<div class="ttl">Панели</div>
-								<div class="txt" data-ttl-order="dop2">Хром</div>
+							<div class="order-modal-info__values">
+								<div class="order-modal-info__item">
+									<div class="ttl">Боковые панели</div>
+									<div class="txt" data-ttl-order="dop2">Без панелей</div>
+								</div>
 							</div>
 							<div class="order-modal-info__num"><span data-price-order="dop2" data-price="data-price">0 </span><span class="rouble">a</span></div>
 						</div>
