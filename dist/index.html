@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="html" lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>salini</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta property="og:title" content="Salini">
+		<meta property="og:image" content="assets/images/openpraph.png">
+		<link rel="icon" href="assets/images/favicon.svg">
+		<link rel="apple-touch-icon" href="assets/images/favicon-apple.svg">
+		<script defer="defer" src="assets/vendor.js"></script>
+		<script defer="defer" src="assets/app.js"></script>
+		<link href="394.css" rel="stylesheet">
+		<link href="app.css" rel="stylesheet">
+	</head>
+
+	<body class="body">
+		<div class="wrapper">
+			<main class="main">
+				<ul class="index-links">
+					<li><a href="main">Главная</a></li>
+					<li><a href="catalog">Каталог</a></li>
+					<li><a href="product">Карточка</a></li>
+					<li><a href="product2">Карточка без опций</a></li>
+					<li><a href="collection">Коллекция</a></li>
+					<li><a href="about">О компании</a></li>
+					<li><a href="media">Медиа материалы</a></li>
+					<li><a href="media-detail">Медиа материалы детальная</a></li>
+					<li><a href="buy">Где купить</a></li>
+					<li><a href="search">Поиск</a></li>
+					<li><a href="search-default">Поиск незаполненный</a></li>
+					<li><a href="search-noresults">Поиск пустой</a></li>
+					<li><a href="cooperation">Сотрудничество</a></li>
+					<li><a href="contacts">Контакты</a></li>
+					<li><a href="404">404</a></li>
+				</ul>
+			</main>
+		</div>
+		<div class="modals">
+			<div class="modal contacts-modal menu-modal" data-fancy-modal="menu"><button class="menu-modal__button" data-fancybox-close="">
+					<div class="menu-modal__text">закрыть</div>
+					<div class="menu-modal__icon"><svg class="menu-modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+						</svg></div>
+				</button>
+				<div class="menu-modal__top">
+					<div class="menu-modal__big-col">
+						<div class="menu-modal__item"><a class="menu-modal__tel menu-modal__link" href="tel:89300895605" data-animation="fade-up">8 930 089-56-05</a></div>
+						<div class="menu-modal__item"><a class="menu-modal__mail menu-modal__link" href="mailto:info@salini-srl.com" data-animation="fade-up">info@salini-srl.com</a></div>
+					</div>
+					<div class="menu-modal__col">
+						<div class="menu-modal__block">
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Ванны</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Раковины</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Душевые поддоны</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Аксессуары</a></div>
+						</div>
+						<div class="menu-modal__block">
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">О компании</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">сотрудничество</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Медиа и документы</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Где купить</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">контакты</a></div>
+						</div>
+					</div>
+					<div class="menu-modal__col">
+						<div class="menu-modal__block">
+							<div class="menu-modal__item">
+								<div class="menu-modal__col-ttl menu-modal__link moniqa no-hover" data-animation="fade-up">Коллекции</div>
+							</div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Ninfea</a></div>
+							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">luce</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-modal__bottom">
+					<div class="menu-modal__bottom-item" data-animation="fade-up">сделано в <a class="menu-modal__bottom-link" href="">CloudMill</a></div>
+					<div class="menu-modal__item menu-modal__bottom-item"><a class="menu-modal__link" href="" data-animation="fade-up">Политика конфиденциальности</a></div>
+				</div>
+			</div>
+			<div class="modal search-modal" data-fancy-modal="search">
+				<div class="container" data-animation="fade-up">
+					<div class="search-modal__ttl moniqa">Поиск</div><input class="search-modal__input" placeholder="Что вы хотите найти?" /><button class="search-modal__close" data-fancybox-close=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+						</svg></button>
+				</div>
+			</div>
+			<div class="modal contacts-modal collections-modal" data-fancy-modal="collections">
+				<div class="collections-modal__container">
+					<div class="collections-modal__top">
+						<div class="collections-modal__ttl moniqa" data-animation="fade-up">Коллекции</div><button class="search-modal__close" data-fancybox-close=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+							</svg></button>
+					</div>
+					<div class="collections-modal__table"><a class="collections-modal__card" href="" data-animation="fade-up">
+							<div class="collections-modal__card-ttl">Ninfea</div>
+							<div class="collections-modal__card-arrow brown-link"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+								</svg></div>
+							<div class="collections-modal__card-img">
+								<picture>
+									<source srcset="assets/images/webp//main-slider/slide1_1x.webp" type="image/webp" /><img src="assets/images//main-slider/slide1_1x.jpeg" alt="" />
+								</picture>
+							</div>
+						</a><a class="collections-modal__card" href="" data-animation="fade-up">
+							<div class="collections-modal__card-ttl">Luce</div>
+							<div class="collections-modal__card-arrow brown-link"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+								</svg></div>
+							<div class="collections-modal__card-img">
+								<picture>
+									<source srcset="assets/images/webp//main-slider/slide3_1x.webp" type="image/webp" /><img src="assets/images//main-slider/slide3_1x.jpeg" alt="" />
+								</picture>
+							</div>
+						</a></div>
+				</div>
+			</div>
+			<div class="callback-modal" data-fancy-modal="callback">
+				<div class="collections-modal__top">
+					<div class="collections-modal__ttl moniqa" data-animation="fade-up" data-callback-ttl="data-callback-ttl">Обратный звонок</div><button class="search-modal__close" data-fancybox-close=""><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+						</svg></button>
+				</div>
+				<div class="callback-modal__body" data-callback-body="data-callback-body">
+					<form class="callback-modal__form" data-parsley-validate="data-parsley-validate" data-callback-form="data-callback-form">
+						<div class="form-item" data-animation="fade-up"><input class="form-input" required="required" data-input="" data-parsley-string="" /><span class="form-item__placeholder">Имя*</span></div>
+						<div class="form-item" data-animation="fade-up"><input class="form-input" type="string" required="required" data-input="" data-phone-input="" /><span class="form-item__placeholder">Телефон*</span></div><label class="checkbox-block" data-animation="fade-up">
+							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" checked="checked" required="required" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="24" height="24" fill="#02343B"></rect>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+								</svg></div>
+							<p class="checkbox-caption">Согласен на обработку персональных данных в соответствии с <a href="">политикой конфиденциальности</a></p>
+						</label><label class="about-form__submit" data-animation="fade-up">
+							<div class="brown-link">
+								<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+									</svg></div>
+							</div><input type="submit" value="отправить" />
+						</label>
+					</form>
+				</div>
+			</div>
+			<div class="response-modal modal" data-fancy-modal="response">
+				<div class="response-modal__container" data-animation="fade-up">
+					<div class="response-modal__title moniqa">Отправлено</div>
+					<p class="response-modal__text">Спасибо, мы получили ваш запрос и свяжемся с вами в ближайшее время</p>
+				</div>
+				<div class="modal__close" data-fancybox-close="" data-animation="fade-up"><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+					</svg></div>
+			</div>
+		</div>
+	</body>
+
+</html>
