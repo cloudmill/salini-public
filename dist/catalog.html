@@ -118,8 +118,16 @@
 									<div class="filter-buttons__col">
 										<div class="select-wrapper">
 											<div class="select"><select class="select__select" style="width: 100%">
-													<option value="цена по возрастанию">цена по возрастанию</option>
-													<option value="цена по убыванию">цена по убыванию</option>
+													<option value="сначала новинки">сначала новинки</option>
+													<option value="сначала старые">сначала старые</option>
+												</select></div>
+										</div>
+									</div>
+									<div class="filter-buttons__col">
+										<div class="select-wrapper">
+											<div class="select"><select class="select__select" style="width: 100%">
+													<option value="по алфавиту (А–Я)">по алфавиту (А–Я)</option>
+													<option value="по алфавиту (Я–А)">по алфавиту (Я–А)</option>
 												</select></div>
 										</div>
 									</div>
@@ -145,21 +153,148 @@
 										<div class="range-info__small">до</div><input class="range-info__value" data-range-to="769900">
 									</div>
 								</div>
-								<div class="filter-row__item" data-fancy-button="size">
+								<div class="filter-row__item" data-catalog-accordion="">
 									<div class="filter-row__item-inner">Размер<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M6 1L6 4.5122M6 7.4878V11M11 6H7.4878M4.5122 6L1 6" stroke="#DCDCDC" stroke-width="1.5" stroke-linecap="square"></path>
 										</svg></div>
+									<div class="filter-row__dropdown filter-row__dropdown--range">
+										<div class="filter-row__container" data-filter-property="size">
+											<ul class="catalog-list">
+												<li class="catalog-list__item">
+													<div class="catalog-list__heading">Длина, мм</div>
+													<div class="catalog-list__range">
+														<div class="filter-row__range default" data-range="">
+															<div class="range-info range-info--small" data-range-input-block>
+																<div class="range-info__small">от</div><input class="range-info__value" data-range-from="1200">
+															</div>
+															<div class="range-slider__container">
+																<div class="range-slider range-slider--full">
+																	<div data-range-range="" data-range-min="300" data-range-max="2000" data-filter-range="Длина мм"></div>
+																</div>
+															</div>
+															<div class="range-info range-info--small" data-range-input-block>
+																<div class="range-info__small">до</div><input class="range-info__value" data-range-to="1800">
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="catalog-list__item">
+													<div class="catalog-list__heading">Ширина, мм</div>
+													<div class="catalog-list__range">
+														<div class="filter-row__range default" data-range="">
+															<div class="range-info range-info--small" data-range-input-block>
+																<div class="range-info__small">от</div><input class="range-info__value" data-range-from="1200">
+															</div>
+															<div class="range-slider__container">
+																<div class="range-slider range-slider--full">
+																	<div data-range-range="" data-range-min="300" data-range-max="2000" data-filter-range="Длина мм"></div>
+																</div>
+															</div>
+															<div class="range-info range-info--small" data-range-input-block>
+																<div class="range-info__small">до</div><input class="range-info__value" data-range-to="1800">
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="catalog-list__item">
+													<div class="catalog-list__heading">Глубина, мм</div>
+													<div class="catalog-list__range">
+														<div class="filter-row__range default" data-range="">
+															<div class="range-info range-info--small" data-range-input-block>
+																<div class="range-info__small">от</div><input class="range-info__value" data-range-from="1200">
+															</div>
+															<div class="range-slider__container">
+																<div class="range-slider range-slider--full">
+																	<div data-range-range="" data-range-min="300" data-range-max="2000" data-filter-range="Длина мм"></div>
+																</div>
+															</div>
+															<div class="range-info range-info--small" data-range-input-block>
+																<div class="range-info__small">до</div><input class="range-info__value" data-range-to="1800">
+															</div>
+														</div>
+													</div>
+												</li>
+											</ul>
+											<div class="filter-row__btn">
+												<div class="catalog-accept catalog-accept--static">
+													<div class="catalog-accept__btn" data-filter-accept="">
+														<div class="brown-link brown-link--sm">
+															<div class="brown-link__container"><svg class="brown-link__svg brown-link__svg--sm" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</div>
+														<div class="catalog-accept__text">применить</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="filter-row__item" data-fancy-button="type">
+								<div class="filter-row__item" data-catalog-accordion="">
 									<div class="filter-row__item-inner">тип<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M6 1L6 4.5122M6 7.4878V11M11 6H7.4878M4.5122 6L1 6" stroke="#DCDCDC" stroke-width="1.5" stroke-linecap="square"></path>
 										</svg></div>
+									<div class="filter-row__dropdown">
+										<div class="filter-row__container" data-filter-property="type">
+											<div class="type-modal-body"><label class="type-modal-body__row">
+													<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="угловая"><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect width="24" height="24" fill="#02343B"></rect>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+														</svg></div>
+													<div class="type-modal-body__ttl">угловая</div>
+												</label><label class="type-modal-body__row">
+													<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="отдельностоящая"><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect width="24" height="24" fill="#02343B"></rect>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+														</svg></div>
+													<div class="type-modal-body__ttl">отдельностоящая</div>
+												</label><label class="type-modal-body__row">
+													<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="угловая"><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect width="24" height="24" fill="#02343B"></rect>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+														</svg></div>
+													<div class="type-modal-body__ttl">угловая</div>
+												</label><label class="type-modal-body__row">
+													<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="отдельностоящая"><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect width="24" height="24" fill="#02343B"></rect>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+														</svg></div>
+													<div class="type-modal-body__ttl">отдельностоящая</div>
+												</label><label class="type-modal-body__row">
+													<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="угловая"><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect width="24" height="24" fill="#02343B"></rect>
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
+														</svg></div>
+													<div class="type-modal-body__ttl">угловая</div>
+												</label></div>
+											<div class="filter-row__btn">
+												<div class="catalog-accept catalog-accept--static">
+													<div class="catalog-accept__btn" data-filter-accept="">
+														<div class="brown-link brown-link--sm">
+															<div class="brown-link__container"><svg class="brown-link__svg brown-link__svg--sm" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+																</svg></div>
+														</div>
+														<div class="catalog-accept__text">применить</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 								<div class="filter-row__select">
 									<div class="select-wrapper">
 										<div class="select"><select class="select__select" style="width: 100%">
-												<option value="цена по возрастанию">цена по возрастанию</option>
-												<option value="цена по убыванию">цена по убыванию</option>
+												<option value="сначала новинки">сначала новинки</option>
+												<option value="сначала старые">сначала старые</option>
+											</select></div>
+									</div>
+								</div>
+								<div class="filter-row__select">
+									<div class="select-wrapper">
+										<div class="select"><select class="select__select" style="width: 100%">
+												<option value="по алфавиту (А–Я)">по алфавиту (А–Я)</option>
+												<option value="по алфавиту (Я–А)">по алфавиту (Я–А)</option>
 											</select></div>
 									</div>
 								</div>
@@ -219,60 +354,16 @@
 											<div class="bottom__row">
 												<div class="info">
 													<div class="info__item">
-														<div class="info__ttl">Длина, мм</div>
-														<div class="info__value">1900</div>
+														<div class="info__ttl">Длина</div>
+														<div class="info__value">1900 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Ширина, мм</div>
-														<div class="info__value">1000</div>
+														<div class="info__ttl">Ширина</div>
+														<div class="info__value">1000 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Глубина, мм</div>
-														<div class="info__value">600</div>
-													</div>
-												</div>
-												<div class="brown-link catalog-card__link">
-													<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
-														</svg></div>
-												</div>
-											</div>
-											<div class="bottom__row">
-												<div class="ttl moniqa">Greca</div>
-												<div class="price">от <span>416 000 </span><span class="rouble">a</span></div>
-											</div>
-										</div>
-									</a><a class="catalog-card" href="/product"><svg class="catalog-card__svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M25.9387 9.78063H24.8862C23.4349 9.78063 22.257 8.61905 22.2231 7.17522L22.2219 6.06256C22.1366 2.69949 19.3869 0 16.005 0C12.6231 0 9.87221 2.70074 9.78817 6.06256L9.78691 7.1125C9.78691 8.58518 8.59271 9.78189 7.12003 9.78189H6.06132C2.6995 9.86719 0 12.6169 0 16C0 19.3831 2.6995 22.1341 6.06132 22.2181H7.12003C8.57139 22.2181 9.74928 23.381 9.78315 24.8248L9.7844 25.9374C9.8697 29.3005 12.6194 32 16.0013 32C19.3832 32 22.1341 29.2993 22.2181 25.9374L22.2194 24.0634V24.8875C22.2194 23.4148 23.4136 22.2169 24.8862 22.2169H25.9387C29.3005 22.1316 32 19.3819 32 15.9987C32 12.6156 29.3005 9.86593 25.9387 9.78063ZM25.7794 18.6669C23.815 18.6669 22.2231 20.255 22.2231 22.2181H22.2194C20.2562 22.2194 18.6656 23.815 18.6656 25.7781V25.7794C18.6656 27.2521 17.4714 28.4463 15.9988 28.4463C14.5261 28.4463 13.3331 27.2521 13.3319 25.7794V25.7781C13.3319 23.8162 11.7438 22.2219 9.78315 22.2194H9.7731C9.7731 20.2562 8.18127 18.6669 6.21812 18.6669H6.21687C4.74419 18.6669 3.54999 17.4727 3.54999 16C3.54999 14.5273 4.74419 13.3331 6.21561 13.3331H6.21687C8.18002 13.3331 9.77059 11.745 9.77184 9.78189H9.78189C11.745 9.78064 13.3356 8.18628 13.3356 6.22313V6.22187C13.3356 4.7492 14.5298 3.55499 16.0025 3.55499C17.4752 3.55499 18.6681 4.7492 18.6694 6.22187V6.22313C18.6694 8.18503 20.2575 9.77813 22.2181 9.78063H22.2219C22.2231 11.7438 23.8137 13.3331 25.7769 13.3331H25.7781C27.2508 13.3331 28.445 14.5273 28.445 16C28.445 17.4727 27.2508 18.6656 25.7794 18.6669Z" fill="#C5C5C5"></path>
-											<path d="M15.9989 18.6658C17.4718 18.6658 18.6658 17.4718 18.6658 15.9989C18.6658 14.526 17.4718 13.332 15.9989 13.332C14.526 13.332 13.332 14.526 13.332 15.9989C13.332 17.4718 14.526 18.6658 15.9989 18.6658Z" fill="#C5C5C5"></path>
-										</svg>
-										<div class="catalog-card__img">
-											<picture>
-												<source srcset="assets/images/webp/catalog-1.webp" type="image/webp" /><img src="assets/images/catalog-1.jpeg" alt="" />
-											</picture>
-											<div class="catalog-card__categories categories">
-												<div class="categories__item">
-													<div class="category">угловая</div>
-												</div>
-												<div class="categories__item">
-													<div class="category">угловая</div>
-												</div>
-											</div>
-										</div>
-										<div class="bottom">
-											<div class="bottom__row">
-												<div class="info">
-													<div class="info__item">
-														<div class="info__ttl">Длина, мм</div>
-														<div class="info__value">1900</div>
-													</div>
-													<div class="info__item">
-														<div class="info__ttl">Ширина, мм</div>
-														<div class="info__value">1000</div>
-													</div>
-													<div class="info__item">
-														<div class="info__ttl">Глубина, мм</div>
-														<div class="info__value">600</div>
+														<div class="info__ttl">Глубина</div>
+														<div class="info__value">600 мм</div>
 													</div>
 												</div>
 												<div class="brown-link catalog-card__link">
@@ -307,60 +398,16 @@
 											<div class="bottom__row">
 												<div class="info">
 													<div class="info__item">
-														<div class="info__ttl">Длина, мм</div>
-														<div class="info__value">1900</div>
+														<div class="info__ttl">Длина</div>
+														<div class="info__value">1900 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Ширина, мм</div>
-														<div class="info__value">1000</div>
+														<div class="info__ttl">Ширина</div>
+														<div class="info__value">1000 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Глубина, мм</div>
-														<div class="info__value">600</div>
-													</div>
-												</div>
-												<div class="brown-link catalog-card__link">
-													<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
-														</svg></div>
-												</div>
-											</div>
-											<div class="bottom__row">
-												<div class="ttl moniqa">Greca</div>
-												<div class="price">от <span>416 000 </span><span class="rouble">a</span></div>
-											</div>
-										</div>
-									</a><a class="catalog-card" href="/product"><svg class="catalog-card__svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M25.9387 9.78063H24.8862C23.4349 9.78063 22.257 8.61905 22.2231 7.17522L22.2219 6.06256C22.1366 2.69949 19.3869 0 16.005 0C12.6231 0 9.87221 2.70074 9.78817 6.06256L9.78691 7.1125C9.78691 8.58518 8.59271 9.78189 7.12003 9.78189H6.06132C2.6995 9.86719 0 12.6169 0 16C0 19.3831 2.6995 22.1341 6.06132 22.2181H7.12003C8.57139 22.2181 9.74928 23.381 9.78315 24.8248L9.7844 25.9374C9.8697 29.3005 12.6194 32 16.0013 32C19.3832 32 22.1341 29.2993 22.2181 25.9374L22.2194 24.0634V24.8875C22.2194 23.4148 23.4136 22.2169 24.8862 22.2169H25.9387C29.3005 22.1316 32 19.3819 32 15.9987C32 12.6156 29.3005 9.86593 25.9387 9.78063ZM25.7794 18.6669C23.815 18.6669 22.2231 20.255 22.2231 22.2181H22.2194C20.2562 22.2194 18.6656 23.815 18.6656 25.7781V25.7794C18.6656 27.2521 17.4714 28.4463 15.9988 28.4463C14.5261 28.4463 13.3331 27.2521 13.3319 25.7794V25.7781C13.3319 23.8162 11.7438 22.2219 9.78315 22.2194H9.7731C9.7731 20.2562 8.18127 18.6669 6.21812 18.6669H6.21687C4.74419 18.6669 3.54999 17.4727 3.54999 16C3.54999 14.5273 4.74419 13.3331 6.21561 13.3331H6.21687C8.18002 13.3331 9.77059 11.745 9.77184 9.78189H9.78189C11.745 9.78064 13.3356 8.18628 13.3356 6.22313V6.22187C13.3356 4.7492 14.5298 3.55499 16.0025 3.55499C17.4752 3.55499 18.6681 4.7492 18.6694 6.22187V6.22313C18.6694 8.18503 20.2575 9.77813 22.2181 9.78063H22.2219C22.2231 11.7438 23.8137 13.3331 25.7769 13.3331H25.7781C27.2508 13.3331 28.445 14.5273 28.445 16C28.445 17.4727 27.2508 18.6656 25.7794 18.6669Z" fill="#C5C5C5"></path>
-											<path d="M15.9989 18.6658C17.4718 18.6658 18.6658 17.4718 18.6658 15.9989C18.6658 14.526 17.4718 13.332 15.9989 13.332C14.526 13.332 13.332 14.526 13.332 15.9989C13.332 17.4718 14.526 18.6658 15.9989 18.6658Z" fill="#C5C5C5"></path>
-										</svg>
-										<div class="catalog-card__img">
-											<picture>
-												<source srcset="assets/images/webp/catalog-1.webp" type="image/webp" /><img src="assets/images/catalog-1.jpeg" alt="" />
-											</picture>
-											<div class="catalog-card__categories categories">
-												<div class="categories__item">
-													<div class="category">угловая</div>
-												</div>
-												<div class="categories__item">
-													<div class="category">угловая</div>
-												</div>
-											</div>
-										</div>
-										<div class="bottom">
-											<div class="bottom__row">
-												<div class="info">
-													<div class="info__item">
-														<div class="info__ttl">Длина, мм</div>
-														<div class="info__value">1900</div>
-													</div>
-													<div class="info__item">
-														<div class="info__ttl">Ширина, мм</div>
-														<div class="info__value">1000</div>
-													</div>
-													<div class="info__item">
-														<div class="info__ttl">Глубина, мм</div>
-														<div class="info__value">600</div>
+														<div class="info__ttl">Глубина</div>
+														<div class="info__value">600 мм</div>
 													</div>
 												</div>
 												<div class="brown-link catalog-card__link">
@@ -395,16 +442,16 @@
 											<div class="bottom__row">
 												<div class="info">
 													<div class="info__item">
-														<div class="info__ttl">Длина, мм</div>
-														<div class="info__value">1900</div>
+														<div class="info__ttl">Длина</div>
+														<div class="info__value">1900 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Ширина, мм</div>
-														<div class="info__value">1000</div>
+														<div class="info__ttl">Ширина</div>
+														<div class="info__value">1000 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Глубина, мм</div>
-														<div class="info__value">600</div>
+														<div class="info__ttl">Глубина</div>
+														<div class="info__value">600 мм</div>
 													</div>
 												</div>
 												<div class="brown-link catalog-card__link">
@@ -439,16 +486,104 @@
 											<div class="bottom__row">
 												<div class="info">
 													<div class="info__item">
-														<div class="info__ttl">Длина, мм</div>
-														<div class="info__value">1900</div>
+														<div class="info__ttl">Длина</div>
+														<div class="info__value">1900 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Ширина, мм</div>
-														<div class="info__value">1000</div>
+														<div class="info__ttl">Ширина</div>
+														<div class="info__value">1000 мм</div>
 													</div>
 													<div class="info__item">
-														<div class="info__ttl">Глубина, мм</div>
-														<div class="info__value">600</div>
+														<div class="info__ttl">Глубина</div>
+														<div class="info__value">600 мм</div>
+													</div>
+												</div>
+												<div class="brown-link catalog-card__link">
+													<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+														</svg></div>
+												</div>
+											</div>
+											<div class="bottom__row">
+												<div class="ttl moniqa">Greca</div>
+												<div class="price">от <span>416 000 </span><span class="rouble">a</span></div>
+											</div>
+										</div>
+									</a><a class="catalog-card" href="/product"><svg class="catalog-card__svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M25.9387 9.78063H24.8862C23.4349 9.78063 22.257 8.61905 22.2231 7.17522L22.2219 6.06256C22.1366 2.69949 19.3869 0 16.005 0C12.6231 0 9.87221 2.70074 9.78817 6.06256L9.78691 7.1125C9.78691 8.58518 8.59271 9.78189 7.12003 9.78189H6.06132C2.6995 9.86719 0 12.6169 0 16C0 19.3831 2.6995 22.1341 6.06132 22.2181H7.12003C8.57139 22.2181 9.74928 23.381 9.78315 24.8248L9.7844 25.9374C9.8697 29.3005 12.6194 32 16.0013 32C19.3832 32 22.1341 29.2993 22.2181 25.9374L22.2194 24.0634V24.8875C22.2194 23.4148 23.4136 22.2169 24.8862 22.2169H25.9387C29.3005 22.1316 32 19.3819 32 15.9987C32 12.6156 29.3005 9.86593 25.9387 9.78063ZM25.7794 18.6669C23.815 18.6669 22.2231 20.255 22.2231 22.2181H22.2194C20.2562 22.2194 18.6656 23.815 18.6656 25.7781V25.7794C18.6656 27.2521 17.4714 28.4463 15.9988 28.4463C14.5261 28.4463 13.3331 27.2521 13.3319 25.7794V25.7781C13.3319 23.8162 11.7438 22.2219 9.78315 22.2194H9.7731C9.7731 20.2562 8.18127 18.6669 6.21812 18.6669H6.21687C4.74419 18.6669 3.54999 17.4727 3.54999 16C3.54999 14.5273 4.74419 13.3331 6.21561 13.3331H6.21687C8.18002 13.3331 9.77059 11.745 9.77184 9.78189H9.78189C11.745 9.78064 13.3356 8.18628 13.3356 6.22313V6.22187C13.3356 4.7492 14.5298 3.55499 16.0025 3.55499C17.4752 3.55499 18.6681 4.7492 18.6694 6.22187V6.22313C18.6694 8.18503 20.2575 9.77813 22.2181 9.78063H22.2219C22.2231 11.7438 23.8137 13.3331 25.7769 13.3331H25.7781C27.2508 13.3331 28.445 14.5273 28.445 16C28.445 17.4727 27.2508 18.6656 25.7794 18.6669Z" fill="#C5C5C5"></path>
+											<path d="M15.9989 18.6658C17.4718 18.6658 18.6658 17.4718 18.6658 15.9989C18.6658 14.526 17.4718 13.332 15.9989 13.332C14.526 13.332 13.332 14.526 13.332 15.9989C13.332 17.4718 14.526 18.6658 15.9989 18.6658Z" fill="#C5C5C5"></path>
+										</svg>
+										<div class="catalog-card__img">
+											<picture>
+												<source srcset="assets/images/webp/catalog-1.webp" type="image/webp" /><img src="assets/images/catalog-1.jpeg" alt="" />
+											</picture>
+											<div class="catalog-card__categories categories">
+												<div class="categories__item">
+													<div class="category">угловая</div>
+												</div>
+												<div class="categories__item">
+													<div class="category">угловая</div>
+												</div>
+											</div>
+										</div>
+										<div class="bottom">
+											<div class="bottom__row">
+												<div class="info">
+													<div class="info__item">
+														<div class="info__ttl">Длина</div>
+														<div class="info__value">1900 мм</div>
+													</div>
+													<div class="info__item">
+														<div class="info__ttl">Ширина</div>
+														<div class="info__value">1000 мм</div>
+													</div>
+													<div class="info__item">
+														<div class="info__ttl">Глубина</div>
+														<div class="info__value">600 мм</div>
+													</div>
+												</div>
+												<div class="brown-link catalog-card__link">
+													<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+														</svg></div>
+												</div>
+											</div>
+											<div class="bottom__row">
+												<div class="ttl moniqa">Greca</div>
+												<div class="price">от <span>416 000 </span><span class="rouble">a</span></div>
+											</div>
+										</div>
+									</a><a class="catalog-card" href="/product"><svg class="catalog-card__svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M25.9387 9.78063H24.8862C23.4349 9.78063 22.257 8.61905 22.2231 7.17522L22.2219 6.06256C22.1366 2.69949 19.3869 0 16.005 0C12.6231 0 9.87221 2.70074 9.78817 6.06256L9.78691 7.1125C9.78691 8.58518 8.59271 9.78189 7.12003 9.78189H6.06132C2.6995 9.86719 0 12.6169 0 16C0 19.3831 2.6995 22.1341 6.06132 22.2181H7.12003C8.57139 22.2181 9.74928 23.381 9.78315 24.8248L9.7844 25.9374C9.8697 29.3005 12.6194 32 16.0013 32C19.3832 32 22.1341 29.2993 22.2181 25.9374L22.2194 24.0634V24.8875C22.2194 23.4148 23.4136 22.2169 24.8862 22.2169H25.9387C29.3005 22.1316 32 19.3819 32 15.9987C32 12.6156 29.3005 9.86593 25.9387 9.78063ZM25.7794 18.6669C23.815 18.6669 22.2231 20.255 22.2231 22.2181H22.2194C20.2562 22.2194 18.6656 23.815 18.6656 25.7781V25.7794C18.6656 27.2521 17.4714 28.4463 15.9988 28.4463C14.5261 28.4463 13.3331 27.2521 13.3319 25.7794V25.7781C13.3319 23.8162 11.7438 22.2219 9.78315 22.2194H9.7731C9.7731 20.2562 8.18127 18.6669 6.21812 18.6669H6.21687C4.74419 18.6669 3.54999 17.4727 3.54999 16C3.54999 14.5273 4.74419 13.3331 6.21561 13.3331H6.21687C8.18002 13.3331 9.77059 11.745 9.77184 9.78189H9.78189C11.745 9.78064 13.3356 8.18628 13.3356 6.22313V6.22187C13.3356 4.7492 14.5298 3.55499 16.0025 3.55499C17.4752 3.55499 18.6681 4.7492 18.6694 6.22187V6.22313C18.6694 8.18503 20.2575 9.77813 22.2181 9.78063H22.2219C22.2231 11.7438 23.8137 13.3331 25.7769 13.3331H25.7781C27.2508 13.3331 28.445 14.5273 28.445 16C28.445 17.4727 27.2508 18.6656 25.7794 18.6669Z" fill="#C5C5C5"></path>
+											<path d="M15.9989 18.6658C17.4718 18.6658 18.6658 17.4718 18.6658 15.9989C18.6658 14.526 17.4718 13.332 15.9989 13.332C14.526 13.332 13.332 14.526 13.332 15.9989C13.332 17.4718 14.526 18.6658 15.9989 18.6658Z" fill="#C5C5C5"></path>
+										</svg>
+										<div class="catalog-card__img">
+											<picture>
+												<source srcset="assets/images/webp/catalog-1.webp" type="image/webp" /><img src="assets/images/catalog-1.jpeg" alt="" />
+											</picture>
+											<div class="catalog-card__categories categories">
+												<div class="categories__item">
+													<div class="category">угловая</div>
+												</div>
+												<div class="categories__item">
+													<div class="category">угловая</div>
+												</div>
+											</div>
+										</div>
+										<div class="bottom">
+											<div class="bottom__row">
+												<div class="info">
+													<div class="info__item">
+														<div class="info__ttl">Длина</div>
+														<div class="info__value">1900 мм</div>
+													</div>
+													<div class="info__item">
+														<div class="info__ttl">Ширина</div>
+														<div class="info__value">1000 мм</div>
+													</div>
+													<div class="info__item">
+														<div class="info__ttl">Глубина</div>
+														<div class="info__value">600 мм</div>
 													</div>
 												</div>
 												<div class="brown-link catalog-card__link">
@@ -751,129 +886,6 @@
 						<div class="catalog-menu__caption">применить</div>
 					</div>
 				</div>
-			</div>
-			<div class="modal catalog-modal" data-fancy-modal="size" data-filter-modal="" data-filter-property="size">
-				<div class="modal__container">
-					<div class="modal__title moniqa" data-animation="fade-up">Размер</div>
-					<ul class="catalog-modal__list">
-						<li class="catalog-modal__item" data-animation="fade-up">
-							<div class="catalog-modal__heading">Длина, мм</div>
-							<div class="catalog-modal__range">
-								<div class="filter-row__range" data-range="">
-									<div class="range-info" data-range-input-block="data-range-input-block">
-										<div class="range-info__small">от</div><input class="range-info__value" data-range-from="1200" />
-									</div>
-									<div class="range-slider__container">
-										<div class="range-slider range-slider--full">
-											<div data-range-range="" data-range-min="300" data-range-max="2000" data-filter-range="Длина мм"></div>
-										</div>
-									</div>
-									<div class="range-info" data-range-input-block="data-range-input-block">
-										<div class="range-info__small">до</div><input class="range-info__value" data-range-to="1800" />
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="catalog-modal__item" data-animation="fade-up">
-							<div class="catalog-modal__heading">Ширина, мм</div>
-							<div class="catalog-modal__range">
-								<div class="filter-row__range" data-range="">
-									<div class="range-info" data-range-input-block="data-range-input-block">
-										<div class="range-info__small">от</div><input class="range-info__value" data-range-from="1200" />
-									</div>
-									<div class="range-slider__container">
-										<div class="range-slider range-slider--full">
-											<div data-range-range="" data-range-min="300" data-range-max="2000" data-filter-range="Длина мм"></div>
-										</div>
-									</div>
-									<div class="range-info" data-range-input-block="data-range-input-block">
-										<div class="range-info__small">до</div><input class="range-info__value" data-range-to="1800" />
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="catalog-modal__item" data-animation="fade-up">
-							<div class="catalog-modal__heading">Глубина, мм</div>
-							<div class="catalog-modal__range">
-								<div class="filter-row__range" data-range="">
-									<div class="range-info" data-range-input-block="data-range-input-block">
-										<div class="range-info__small">от</div><input class="range-info__value" data-range-from="1200" />
-									</div>
-									<div class="range-slider__container">
-										<div class="range-slider range-slider--full">
-											<div data-range-range="" data-range-min="300" data-range-max="2000" data-filter-range="Длина мм"></div>
-										</div>
-									</div>
-									<div class="range-info" data-range-input-block="data-range-input-block">
-										<div class="range-info__small">до</div><input class="range-info__value" data-range-to="1800" />
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="catalog-accept" data-animation="fade-up">
-					<div class="catalog-accept__btn" data-filter-accept="">
-						<div class="brown-link brown-link--sm">
-							<div class="brown-link__container"><svg class="brown-link__svg brown-link__svg--sm" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
-								</svg></div>
-						</div>
-						<div class="catalog-accept__text">применить</div>
-					</div>
-				</div>
-				<div class="modal__close" data-fancybox-close="" data-animation="fade-up"><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-					</svg></div>
-			</div>
-			<div class="modal catalog-modal" data-fancy-modal="type" data-filter-modal="" data-filter-property="type">
-				<div class="modal__container">
-					<div class="modal__title moniqa" data-animation="fade-up">Тип</div>
-					<div class="type-modal-body" data-animation="fade-up"><label class="type-modal-body__row">
-							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="угловая" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect width="24" height="24" fill="#02343B"></rect>
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
-								</svg></div>
-							<div class="type-modal-body__ttl">угловая</div>
-						</label><label class="type-modal-body__row">
-							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="отдельностоящая" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect width="24" height="24" fill="#02343B"></rect>
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
-								</svg></div>
-							<div class="type-modal-body__ttl">отдельностоящая</div>
-						</label><label class="type-modal-body__row">
-							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="угловая" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect width="24" height="24" fill="#02343B"></rect>
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
-								</svg></div>
-							<div class="type-modal-body__ttl">угловая</div>
-						</label><label class="type-modal-body__row">
-							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="отдельностоящая" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect width="24" height="24" fill="#02343B"></rect>
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
-								</svg></div>
-							<div class="type-modal-body__ttl">отдельностоящая</div>
-						</label><label class="type-modal-body__row">
-							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" data-filters-check="угловая" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<rect width="24" height="24" fill="#02343B"></rect>
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
-								</svg></div>
-							<div class="type-modal-body__ttl">угловая</div>
-						</label></div>
-				</div>
-				<div class="catalog-accept" data-animation="fade-up">
-					<div class="catalog-accept__btn" data-filter-accept="">
-						<div class="brown-link brown-link--sm">
-							<div class="brown-link__container"><svg class="brown-link__svg brown-link__svg--sm" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
-								</svg></div>
-						</div>
-						<div class="catalog-accept__text">применить</div>
-					</div>
-				</div>
-				<div class="modal__close" data-fancybox-close="" data-animation="fade-up"><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-					</svg></div>
 			</div>
 		</div>
 	</body>
