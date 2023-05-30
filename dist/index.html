@@ -4,14 +4,14 @@
 	<head>
 		<meta charset="utf-8">
 		<title>salini</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta property="og:title" content="Salini">
 		<meta property="og:image" content="assets/images/openpraph.png">
 		<link rel="icon" href="assets/images/favicon.svg">
 		<link rel="apple-touch-icon" href="assets/images/favicon-apple.svg">
 		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
-		<link href="394.css" rel="stylesheet">
+		<link href="810.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
 	</head>
 
@@ -22,12 +22,10 @@
 					<li><a href="main">Главная</a></li>
 					<li><a href="catalog">Каталог</a></li>
 					<li><a href="product">Карточка</a></li>
-					<li><a href="product2">Карточка без опций</a></li>
 					<li><a href="collection">Коллекция</a></li>
 					<li><a href="about">О компании</a></li>
 					<li><a href="media">Медиа материалы</a></li>
 					<li><a href="media-detail">Медиа материалы детальная</a></li>
-					<li><a href="buy">Где купить</a></li>
 					<li><a href="search">Поиск</a></li>
 					<li><a href="search-default">Поиск незаполненный</a></li>
 					<li><a href="search-noresults">Поиск пустой</a></li>
@@ -36,8 +34,6 @@
 					<li><a href="404">404</a></li>
 				</ul>
 			</main>
-		</div>
-		<div class="modals">
 			<div class="modal contacts-modal menu-modal" data-fancy-modal="menu"><button class="menu-modal__button" data-fancybox-close="">
 					<div class="menu-modal__text">закрыть</div>
 					<div class="menu-modal__icon"><svg class="menu-modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +63,7 @@
 					<div class="menu-modal__col">
 						<div class="menu-modal__block">
 							<div class="menu-modal__item">
-								<div class="menu-modal__col-ttl menu-modal__link moniqa no-hover" data-animation="fade-up">Коллекции</div>
+								<div class="menu-modal__col-ttl menu-modal__link moniqa" data-animation="fade-up">Коллекции</div>
 							</div>
 							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">Ninfea</a></div>
 							<div class="menu-modal__item"><a class="menu-modal__link" href="" data-animation="fade-up">luce</a></div>
@@ -124,8 +120,8 @@
 				</div>
 				<div class="callback-modal__body" data-callback-body="data-callback-body">
 					<form class="callback-modal__form" data-parsley-validate="data-parsley-validate" data-callback-form="data-callback-form">
-						<div class="form-item" data-animation="fade-up"><input class="form-input" required="required" data-input="" data-parsley-string="" /><span class="form-item__placeholder">Имя*</span></div>
-						<div class="form-item" data-animation="fade-up"><input class="form-input" type="string" required="required" data-input="" data-phone-input="" /><span class="form-item__placeholder">Телефон*</span></div><label class="checkbox-block" data-animation="fade-up">
+						<div class="form-item" data-animation="fade-up"><input class="form-input" required="required" data-input="" /><span class="form-item__placeholder">Имя*</span></div>
+						<div class="form-item" data-animation="fade-up"><input class="form-input" type="number" required="required" data-input="" /><span class="form-item__placeholder">Телефон</span></div><label class="checkbox-block" data-animation="fade-up">
 							<div class="checkbox-box"><input class="checkbox" type="checkbox" id="checkbox" checked="checked" required="required" /><svg class="checkbox-done" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<rect width="24" height="24" fill="#02343B"></rect>
 									<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2747 9.93755L10.7038 16.5493L6.72546 12.5462L7.94139 11.3378L10.7038 14.1174L16.0588 8.72913L17.2747 9.93755Z" fill="#DCDCDC"></path>
@@ -139,16 +135,8 @@
 							</div><input type="submit" value="отправить" />
 						</label>
 					</form>
+					<div class="callback-modal__response">Спасибо, мы получили ваш запрос и свяжемся<br />с вами в ближайшее время</div>
 				</div>
-			</div>
-			<div class="response-modal modal" data-fancy-modal="response">
-				<div class="response-modal__container" data-animation="fade-up">
-					<div class="response-modal__title moniqa">Отправлено</div>
-					<p class="response-modal__text">Спасибо, мы получили ваш запрос и свяжемся с вами в ближайшее время</p>
-				</div>
-				<div class="modal__close" data-fancybox-close="" data-animation="fade-up"><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
-					</svg></div>
 			</div>
 		</div>
 	</body>
