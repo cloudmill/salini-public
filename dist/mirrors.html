@@ -361,7 +361,55 @@
 											<div class="options-tabs-block options-elem-border b-bottom" data-tab-panel="options">
 												<div class="options-tabs-block__ttl">Размер, мм</div>
 												<div class="colors-tabs-block__ttl">Длина x Ширина x Высота</div>
-												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab="opt1">600 x 900 x 25</button><button class="options-tabs-block__item" data-tab="opt2">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab="opt2">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab="opt2">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab="opt2">700 x 900 x 25</button></div>
+												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab>600 x 900 x 25</button><button class="options-tabs-block__item" data-tab>700 x 900 x 25</button><button class="options-tabs-block__item" data-tab>700 x 900 x 25</button><button class="options-tabs-block__item" data-tab>700 x 900 x 25</button><button class="options-tabs-block__item" data-tab>700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-show-inputs>свой размер</button></div>
+												<div class="options-inputs" data-options-inputs style="display:none">
+													<div class="options-tabs-block__ttl">Изменить ширину, мм</div>
+													<div class="options-inputs-item" data-slider-range><label class="options-inputs__input" data-range-input-block>
+															<div class="options-inputs__ttl">Укажите ширину:</div><input class="options-inputs__input-value" data-range-from="500" data-range-to="2000" type="number" data-range-input>
+														</label>
+														<div class="options-inputs-range">
+															<div class="options-inputs-range__ttl">от 500 мм</div>
+															<div data-range-range="" data-range-min="500" data-range-max="2000" id="slider-range"></div>
+															<div class="options-inputs-range__ttl">до 2 000 мм</div>
+														</div>
+													</div>
+													<div class="options-tabs-block__ttl">Изменить высоту, мм</div>
+													<div class="options-inputs-item" data-slider-range><label class="options-inputs__input" data-range-input-block>
+															<div class="options-inputs__ttl">Укажите высоту:</div><input class="options-inputs__input-value" data-range-from="500" data-range-to="2000" type="number" data-range-input>
+														</label>
+														<div class="options-inputs-range">
+															<div class="options-inputs-range__ttl">от 500 мм</div>
+															<div data-range-range="" data-range-min="500" data-range-max="2000" id="slider-range"></div>
+															<div class="options-inputs-range__ttl">до 2 000 мм</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="options-elem-border">
+												<div class="cards-tabs">
+													<div class="cards-tabs__ttl">Фоновая подсветка</div>
+													<div class="cards-tabs__row new" data-tab-panel="">
+														<div class="cards-tabs-item" data-tab="2">
+															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-0.jpeg" alt="" data-opt-img></div>
+															<div class="cards-tabs-item__ttl">Тёплый свет</div>
+															<div class="cards-tabs-item__txt">4 000 К</div>
+														</div>
+														<div class="cards-tabs-item" data-tab="3">
+															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-1.jpeg" alt="" data-opt-img></div>
+															<div class="cards-tabs-item__ttl">Нейтральный свет</div>
+															<div class="cards-tabs-item__txt">4 000 К</div>
+														</div>
+														<div class="cards-tabs-item" data-tab="4">
+															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-2.jpeg" alt="" data-opt-img></div>
+															<div class="cards-tabs-item__ttl">Холодный свет</div>
+															<div class="cards-tabs-item__txt">6 000 К</div>
+														</div>
+														<div class="cards-tabs-item" data-tab="5">
+															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-3.jpeg" alt="" data-opt-img></div>
+															<div class="cards-tabs-item__ttl">Без подсветки</div>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 										<div class="col-2 flex-column">
@@ -382,7 +430,19 @@
 											<div class="options-tabs-block options-elem-border b-bottom" data-tab-panel="options">
 												<div class="options-tabs-block__ttl">Размер, мм</div>
 												<div class="colors-tabs-block__ttl">Диаметр x Ширина</div>
-												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab="opt1">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button></div>
+												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab="opt1">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button><button class="options-tabs-block__item" data-tab="opt2">D 600 x 25</button><button class="options-tabs-block__item" data-tab data-show-inputs>свой размер</button></div>
+												<div class="options-inputs" data-options-inputs style="display:none">
+													<div class="options-tabs-block__ttl">Изменить диаметр, мм</div>
+													<div class="options-inputs-item" data-slider-range><label class="options-inputs__input" data-range-input-block>
+															<div class="options-inputs__ttl">Укажите диаметр:</div><input class="options-inputs__input-value" data-range-from="500" data-range-to="2000" type="number" data-range-input>
+														</label>
+														<div class="options-inputs-range">
+															<div class="options-inputs-range__ttl">от 500 мм</div>
+															<div data-range-range="" data-range-min="500" data-range-max="2000" id="slider-range"></div>
+															<div class="options-inputs-range__ttl">до 2 000 мм</div>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 										<div class="col-2 flex-column">
