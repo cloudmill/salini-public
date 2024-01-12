@@ -361,11 +361,11 @@
 											<div class="options-tabs-block options-elem-border b-bottom" data-tab-panel="options">
 												<div class="options-tabs-block__ttl">Размер, мм</div>
 												<div class="colors-tabs-block__ttl">Длина x Ширина x Высота</div>
-												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab data-mirror-size data-mirror-with="600" data-mirror-height="900">600 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="700" data-mirror-height="900">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="1000" data-mirror-height="900">1000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="700" data-mirror-height="900">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="1000" data-mirror-height="900">1000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-show-inputs data-custom-size-button>свой размер</button></div>
+												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab data-mirror-size data-mirror-with="600" data-mirror-height="900">600 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="700" data-mirror-height="900">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="1000" data-mirror-height="900">1 000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="700" data-mirror-height="900">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-mirror-with="1000" data-mirror-height="900">1 000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-show-inputs data-custom-size-button>свой размер</button></div>
 												<div class="options-inputs" data-options-inputs style="display:none">
 													<div class="options-tabs-block__ttl">Изменить ширину, мм</div>
 													<div class="options-inputs-item" data-slider-range><label class="options-inputs__input">
-															<div class="options-inputs__ttl">Укажите ширину:</div><input class="options-inputs__input-value" data-range-from="500" data-range-to="2000" type="number" data-range-input data-custom-with-input>
+															<div class="options-inputs__ttl">Укажите ширину:</div><input class="options-inputs__input-value" data-range-from="500" data-range-to="2000" data-range-input data-custom-with-input>
 														</label>
 														<div class="options-inputs-range">
 															<div class="options-inputs-range__ttl">от 500 мм</div>
@@ -375,7 +375,7 @@
 													</div>
 													<div class="options-tabs-block__ttl">Изменить высоту, мм</div>
 													<div class="options-inputs-item" data-slider-range><label class="options-inputs__input">
-															<div class="options-inputs__ttl">Укажите высоту:</div><input class="options-inputs__input-value" data-range-from="500" data-range-to="2000" type="number" data-range-input data-custom-height-input>
+															<div class="options-inputs__ttl">Укажите высоту:</div><input class="options-inputs__input-value" data-range-from="500" data-range-to="2000" data-range-input data-custom-height-input>
 														</label>
 														<div class="options-inputs-range">
 															<div class="options-inputs-range__ttl">от 500 мм</div>
@@ -387,7 +387,7 @@
 											</div>
 											<div class="options-elem-border">
 												<div class="cards-tabs">
-													<div class="cards-tabs__ttl">Фоновая подсветка</div>
+													<div class="options-tabs-block__ttl">Фоновая подсветка</div>
 													<div class="cards-tabs__row new" data-tab-panel="">
 														<div class="cards-tabs-item" data-tab="2">
 															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-0.jpeg" alt="" data-opt-img></div>
@@ -418,7 +418,10 @@
 												<div class="options-tabs-block__row mb">
 													<div class="options-tabs-block__item" data-fancy-button="dop-options"><span>подогрев</span></div>
 													<div class="options-tabs-block__item" data-fancy-button="dop-options"><span>Выключатель</span></div>
-												</div>
+												</div><svg class="options-elem-bg__svg" width="72" height="32" viewBox="0 0 72 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect width="72" height="32" rx="16" fill="#02343B"></rect>
+													<path d="M36.1948 11L36.1948 14.5122M36.1948 17.4878V21M41.3896 16H37.7406M34.649 16L31 16" stroke="#F1F1F1" stroke-width="1.5" stroke-linecap="square"></path>
+												</svg>
 											</div>
 										</div>
 									</div>
@@ -1347,19 +1350,6 @@
 						<div class="order-modal-info__row">
 							<div class="order-modal-info__values">
 								<div class="order-modal-info__item">
-									<div class="ttl">Материал</div>
-									<div class="txt" data-ttl-order="materials">S-Sense</div>
-								</div>
-								<div class="order-modal-info__item">
-									<div class="ttl">Тип покрытия</div>
-									<div class="txt" data-ttl-order="coating">Глянцевое</div>
-								</div>
-							</div>
-							<div class="order-modal-info__num"><span data-price="data-price" data-price-order="materials">59 638 </span><span class="rouble">a</span></div>
-						</div>
-						<div class="order-modal-info__row">
-							<div class="order-modal-info__values">
-								<div class="order-modal-info__item">
 									<div class="ttl">Изменение цвета</div>
 									<div class="txt" color-mod-order="color-mod-order">Нет</div>
 								</div>
@@ -1384,24 +1374,6 @@
 								<div class="ttl">Дополнительные опции</div>
 								<div class="order-modal-info__col" data-dop-options-order="data-dop-options-order"></div>
 							</div>
-						</div>
-						<div class="order-modal-info__row">
-							<div class="order-modal-info__values">
-								<div class="order-modal-info__item">
-									<div class="ttl">Фронтальные экраны</div>
-									<div class="txt" data-ttl-order="dop1">Слева</div>
-								</div>
-							</div>
-							<div class="order-modal-info__num"><span data-price-order="dop1" data-price="data-price">0 </span><span class="rouble">a</span></div>
-						</div>
-						<div class="order-modal-info__row">
-							<div class="order-modal-info__values">
-								<div class="order-modal-info__item">
-									<div class="ttl">Боковые экраны</div>
-									<div class="txt" data-ttl-order="dop2">Без экранов</div>
-								</div>
-							</div>
-							<div class="order-modal-info__num"><span data-price-order="dop2" data-price="data-price">0 </span><span class="rouble">a</span></div>
 						</div>
 						<div class="order-modal-info__bottom"><span class="ttl">Итого</span><span class="total"> <span data-total-price="data-total-price">122 028 </span><span class="rouble">a</span></span></div>
 					</div>
