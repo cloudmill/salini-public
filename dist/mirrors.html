@@ -361,7 +361,7 @@
 											<div class="options-tabs-block options-elem-border b-bottom" data-tab-panel="options">
 												<div class="options-tabs-block__ttl">Размер, мм</div>
 												<div class="colors-tabs-block__ttl">Длина x Ширина x Высота</div>
-												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab data-mirror-size data-opt-price="33333">600 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="55555">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="77777">1 000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="55555">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="77777">1 000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-show-inputs data-custom-size-button>свой размер</button></div>
+												<div class="options-tabs-block__row"><button class="options-tabs-block__item active" data-tab data-mirror-size data-opt-price="33333" data-mirror-with="600" data-mirror-height="900">600 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="55555" data-mirror-with="700" data-mirror-height="900">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="77777" data-mirror-with="1000" data-mirror-height="900">1 000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="55555" data-mirror-with="700" data-mirror-height="900">700 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-mirror-size data-opt-price="77777" data-mirror-with="1000" data-mirror-height="900">1 000 x 900 x 25</button><button class="options-tabs-block__item" data-tab data-show-inputs data-custom-size-button>свой размер</button></div>
 												<div class="options-inputs" data-options-inputs style="display:none">
 													<div class="options-tabs-block__ttl">Изменить ширину, мм</div>
 													<div class="options-inputs-item" data-slider-range><label class="options-inputs__input">
@@ -389,35 +389,35 @@
 												<div class="cards-tabs">
 													<div class="options-tabs-block__ttl">Фоновая подсветка</div>
 													<div class="cards-tabs__row new" data-tab-panel="">
-														<div class="cards-tabs-item" data-tab="2">
+														<div class="cards-tabs-item active" data-tab="2" data-mirror-light="Без подсветки" data-mirror-nolight>
+															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-3.jpeg" alt="" data-opt-img></div>
+															<div class="cards-tabs-item__ttl">Без подсветки</div>
+														</div>
+														<div class="cards-tabs-item" data-tab="3" data-mirror-light="Тёплый свет">
 															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-0.jpeg" alt="" data-opt-img></div>
 															<div class="cards-tabs-item__ttl">Тёплый свет</div>
 															<div class="cards-tabs-item__txt">4 000 К</div>
 														</div>
-														<div class="cards-tabs-item" data-tab="3">
+														<div class="cards-tabs-item" data-tab="4" data-mirror-light="Нейтральный свет">
 															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-1.jpeg" alt="" data-opt-img></div>
 															<div class="cards-tabs-item__ttl">Нейтральный свет</div>
 															<div class="cards-tabs-item__txt">4 000 К</div>
 														</div>
-														<div class="cards-tabs-item" data-tab="4">
+														<div class="cards-tabs-item" data-tab="5" data-mirror-light="Холодный свет">
 															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-2.jpeg" alt="" data-opt-img></div>
 															<div class="cards-tabs-item__ttl">Холодный свет</div>
 															<div class="cards-tabs-item__txt">6 000 К</div>
-														</div>
-														<div class="cards-tabs-item" data-tab="5">
-															<div class="cards-tabs-item__img"><img src="assets/images/new-opts-3.jpeg" alt="" data-opt-img></div>
-															<div class="cards-tabs-item__ttl">Без подсветки</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 										<div class="col-2 flex-column">
-											<div class="options-elem-bg" data-fancy-button="dop-options">
+											<div class="options-elem-bg">
 												<div class="options-tabs-block__ttl">Дополнительные опции</div>
 												<div class="options-tabs-block__row mb">
-													<div class="options-tabs-block__item"><span>подогрев</span></div>
-													<div class="options-tabs-block__item"><span>Выключатель</span></div>
+													<div class="options-tabs-block__item" data-fancy-button="dop-options1"><span>подогрев</span></div>
+													<div class="options-tabs-block__item" data-fancy-button="dop-options2"><span>Выключатель</span></div>
 												</div><svg class="options-elem-bg__svg" width="72" height="32" viewBox="0 0 72 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<rect width="72" height="32" rx="16" fill="#02343B"></rect>
 													<path d="M36.1948 11L36.1948 14.5122M36.1948 17.4878V21M41.3896 16H37.7406M34.649 16L31 16" stroke="#F1F1F1" stroke-width="1.5" stroke-linecap="square"></path>
@@ -1430,37 +1430,20 @@
 						<div class="order-modal-info__row">
 							<div class="order-modal-info__values">
 								<div class="order-modal-info__item">
-									<div class="ttl">Материал</div>
-									<div class="txt" data-ttl-order="materials">S-Sense</div>
-								</div>
-								<div class="order-modal-info__item">
-									<div class="ttl">Тип покрытия</div>
-									<div class="txt" data-ttl-order="coating">Глянцевое</div>
+									<div class="ttl">Размер</div>
+									<div class="txt" data-order-mirror-size="data-order-mirror-size">-</div>
 								</div>
 							</div>
-							<div class="order-modal-info__num"><span data-price="data-price" data-price-order="materials">59 638 </span><span class="rouble">a</span></div>
+							<div class="order-modal-info__num"><span data-order-mirror-size-price="data-order-mirror-size-price">0</span><span class="rouble">a</span></div>
 						</div>
 						<div class="order-modal-info__row">
 							<div class="order-modal-info__values">
 								<div class="order-modal-info__item">
-									<div class="ttl">Изменение цвета</div>
-									<div class="txt" color-mod-order="color-mod-order">Нет</div>
-								</div>
-								<div class="order-modal-info__item display-none" data-color-row="data-color-row">
-									<div class="ttl">Цвет по RAL Classic</div>
-									<div class="txt" data-color-order="data-color-order">Кремовый</div>
+									<div class="ttl">Фоновая подсветка</div>
+									<div class="txt" data-order-mirror-light="data-order-mirror-light">-</div>
 								</div>
 							</div>
-							<div class="order-modal-info__num"><span data-price-order="color" data-price="data-price">0 </span><span class="rouble">a</span></div>
-						</div>
-						<div class="order-modal-info__row">
-							<div class="order-modal-info__values">
-								<div class="order-modal-info__item">
-									<div class="ttl">Слив-Перелив</div>
-									<div class="txt" data-ttl-order="drainage">Бронза</div>
-								</div>
-							</div>
-							<div class="order-modal-info__num"><span data-price-order="drainage" data-price="data-price">0 </span><span class="rouble">a</span></div>
+							<div class="order-modal-info__num"><span data-order-mirror-light-price="data-order-mirror-light-price">0 </span><span class="rouble">a</span></div>
 						</div>
 						<div class="order-modal-info__row" data-dop-options-order-row="data-dop-options-order-row">
 							<div class="order-modal-info__item column">
@@ -1468,25 +1451,7 @@
 								<div class="order-modal-info__col" data-dop-options-order="data-dop-options-order"></div>
 							</div>
 						</div>
-						<div class="order-modal-info__row">
-							<div class="order-modal-info__values">
-								<div class="order-modal-info__item">
-									<div class="ttl">Фронтальные экраны</div>
-									<div class="txt" data-ttl-order="dop1">Слева</div>
-								</div>
-							</div>
-							<div class="order-modal-info__num"><span data-price-order="dop1" data-price="data-price">0 </span><span class="rouble">a</span></div>
-						</div>
-						<div class="order-modal-info__row">
-							<div class="order-modal-info__values">
-								<div class="order-modal-info__item">
-									<div class="ttl">Боковые экраны</div>
-									<div class="txt" data-ttl-order="dop2">Без экранов</div>
-								</div>
-							</div>
-							<div class="order-modal-info__num"><span data-price-order="dop2" data-price="data-price">0 </span><span class="rouble">a</span></div>
-						</div>
-						<div class="order-modal-info__bottom"><span class="ttl">Итого</span><span class="total"> <span data-total-price="data-total-price">122 028 </span><span class="rouble">a</span></span></div>
+						<div class="order-modal-info__bottom"><span class="ttl">Итого</span><span class="total"> <span data-total-price="data-total-price">0</span><span class="rouble">a</span></span></div>
 					</div>
 					<form class="order-modal-form" data-animation="fade-up" data-parsley-validate="">
 						<div class="order-modal-ttls">Укажите контактные данные и мы предоставим список дилеров и партнеров в вашем регионе</div>
@@ -1615,7 +1580,7 @@
 						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
 					</svg></div>
 			</div>
-			<div class="modal dop-options-modal" data-fancy-modal="dop-options">
+			<div class="modal dop-options-modal" data-fancy-modal="dop-options1">
 				<div class="modal__container" data-animation="fade-up">
 					<div class="modal__title modal__title-big moniqa">Дополнительные опции</div>
 					<div class="dop-options-modal-list">
@@ -1623,8 +1588,8 @@
 							<div class="dop-options-modal-list__info">
 								<div class="dop-options-modal-list__txt-big">Подогрев</div>
 								<div class="dop-options-modal-list__buttom">
-									<div class="dop-options-modal-list__txt-big">+<span>3 900</span> <span class="rouble">a</span></div>
-									<div class="dop-options-modal__buttons" data-mirror-dop="opt1" data-mirror-dop-price="3900">
+									<div class="dop-options-modal-list__txt-big">+<span>5 600</span> <span class="rouble">a</span></div>
+									<div class="dop-options-modal__buttons" data-mirror-dop="opt1" data-mirror-dop-value="Подогрев" data-mirror-dop-price="5600">
 										<div class="dop-options-modal__added"><button class="dop-options-modal__cancel"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
 												</svg><span>удалить</span></button>
@@ -1642,12 +1607,114 @@
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div class="modal__close" data-fancybox-close=""><svg class="modal__svg" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+					</svg></div>
+			</div>
+			<div class="modal dop-options-modal" data-fancy-modal="dop-options2">
+				<div class="modal__container" data-animation="fade-up">
+					<div class="modal__title modal__title-big moniqa">Дополнительные опции</div>
+					<div class="dop-options-modal-list" data-tab-panel="data-tab-panel">
 						<div class="dop-options-modal-list__item"><img class="dop-options-modal-list__img" src="assets/images/dop-opt-img-4.jpg" alt="" />
 							<div class="dop-options-modal-list__info">
-								<div class="dop-options-modal-list__txt-big">Выключатель</div>
+								<div class="dop-options-modal-list__txt-big">Стандартный (фигурный ТАЧ сенсор 2в1)</div>
 								<div class="dop-options-modal-list__buttom">
-									<div class="dop-options-modal-list__txt-big">+<span>3 900</span> <span class="rouble">a</span></div>
-									<div class="dop-options-modal__buttons" data-mirror-dop="opt2" data-mirror-dop-price="3900">
+									<div class="dop-options-modal-list__txt-big">+<span>5500</span> <span class="rouble">a</span></div>
+									<div class="dop-options-modal__buttons active" data-mirror-dop="opt2" data-mirror-dop-value="Стандартный (фигурный ТАЧ сенсор 2в1)" data-mirror-dop-price="5500" data-tab="data-tab" data-dop-code="T">
+										<div class="dop-options-modal__added"><button class="dop-options-modal__cancel"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+												</svg><span>удалить</span></button>
+											<div class="dop-options-modal__status"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0493 1.79827L4.47834 8.41001L0.5 4.40696L1.71593 3.19854L4.47834 5.9781L9.83333 0.589844L11.0493 1.79827Z" fill="#A66731"></path>
+												</svg><span>добавлено</span></div>
+										</div><button class="about-form__submit">
+											<div class="brown-link">
+												<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+													</svg></div>
+											</div><span>добавить</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dop-options-modal-list__item"><img class="dop-options-modal-list__img" src="assets/images/dop-opt-img-5.jpg" alt="" />
+							<div class="dop-options-modal-list__info">
+								<div class="dop-options-modal-list__txt-big">Фронтальный сенсор движения включение подсветки+фигурный Тач сенсор включение обогрева</div>
+								<div class="dop-options-modal-list__buttom">
+									<div class="dop-options-modal-list__txt-big">+<span>11200</span> <span class="rouble">a</span></div>
+									<div class="dop-options-modal__buttons" data-mirror-dop="opt2" data-mirror-dop-value="Фронтальный сенсор движения включение подсветки+фигурный Тач сенсор включение обогрева" data-mirror-dop-price="11200" data-tab="data-tab" data-dop-code="INFT">
+										<div class="dop-options-modal__added"><button class="dop-options-modal__cancel"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+												</svg><span>удалить</span></button>
+											<div class="dop-options-modal__status"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0493 1.79827L4.47834 8.41001L0.5 4.40696L1.71593 3.19854L4.47834 5.9781L9.83333 0.589844L11.0493 1.79827Z" fill="#A66731"></path>
+												</svg><span>добавлено</span></div>
+										</div><button class="about-form__submit">
+											<div class="brown-link">
+												<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+													</svg></div>
+											</div><span>добавить</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dop-options-modal-list__item"><img class="dop-options-modal-list__img" src="assets/images/dop-opt-img-6.jpg" alt="" />
+							<div class="dop-options-modal-list__info">
+								<div class="dop-options-modal-list__txt-big">Сенсор движения на корпусе зеркала включение подсветки+_фигурный Тач сенсор включения обогрева</div>
+								<div class="dop-options-modal-list__buttom">
+									<div class="dop-options-modal-list__txt-big">+<span>9100</span> <span class="rouble">a</span></div>
+									<div class="dop-options-modal__buttons" data-mirror-dop="opt2" data-mirror-dop-value="Сенсор движения на корпусе зеркала включение подсветки+_фигурный Тач сенсор включения обогрева" data-mirror-dop-price="9100" data-tab="data-tab" data-dop-code="INKT">
+										<div class="dop-options-modal__added"><button class="dop-options-modal__cancel"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+												</svg><span>удалить</span></button>
+											<div class="dop-options-modal__status"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0493 1.79827L4.47834 8.41001L0.5 4.40696L1.71593 3.19854L4.47834 5.9781L9.83333 0.589844L11.0493 1.79827Z" fill="#A66731"></path>
+												</svg><span>добавлено</span></div>
+										</div><button class="about-form__submit">
+											<div class="brown-link">
+												<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+													</svg></div>
+											</div><span>добавить</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dop-options-modal-list__item"><img class="dop-options-modal-list__img" src="assets/images/dop-opt-img-7.jpg" alt="" />
+							<div class="dop-options-modal-list__info">
+								<div class="dop-options-modal-list__txt-big">Сенсор движения на корпусе 2в1 (включение подсветки и обогрева)</div>
+								<div class="dop-options-modal-list__buttom">
+									<div class="dop-options-modal-list__txt-big">+<span>3900</span> <span class="rouble">a</span></div>
+									<div class="dop-options-modal__buttons" data-mirror-dop="opt2" data-mirror-dop-value="Сенсор движения на корпусе 2в1 (включение подсветки и обогрева)" data-mirror-dop-price="3900" data-tab="data-tab" data-dop-code="INK2">
+										<div class="dop-options-modal__added"><button class="dop-options-modal__cancel"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
+												</svg><span>удалить</span></button>
+											<div class="dop-options-modal__status"><svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0493 1.79827L4.47834 8.41001L0.5 4.40696L1.71593 3.19854L4.47834 5.9781L9.83333 0.589844L11.0493 1.79827Z" fill="#A66731"></path>
+												</svg><span>добавлено</span></div>
+										</div><button class="about-form__submit">
+											<div class="brown-link">
+												<div class="brown-link__container"><svg class="brown-link__svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M15.1334 6.93945L21.5358 13.4752V14.5249L15.1334 21.0607L14.0619 20.011L19.2154 14.7501H6.25V13.2501H19.2154L14.0619 7.98912L15.1334 6.93945Z" fill="#DCDCDC"></path>
+													</svg></div>
+											</div><span>добавить</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dop-options-modal-list__item"><img class="dop-options-modal-list__img" src="assets/images/dop-opt-img-8.jpg" alt="" />
+							<div class="dop-options-modal-list__info">
+								<div class="dop-options-modal-list__txt-big">Фронтальный сенсор движения включение подсветки(без опции подогрева)</div>
+								<div class="dop-options-modal-list__buttom">
+									<div class="dop-options-modal-list__txt-big">+<span>6000</span> <span class="rouble">a</span></div>
+									<div class="dop-options-modal__buttons" data-mirror-dop="opt2" data-mirror-dop-value="Фронтальный сенсор движения включение подсветки(без опции подогрева)" data-mirror-dop-price="6000" data-tab="data-tab" data-dop-code="INF">
 										<div class="dop-options-modal__added"><button class="dop-options-modal__cancel"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path d="M8.72992 1.46454L6.24642 3.94804M4.14235 6.05211L1.65886 8.53561M8.86767 8.67336L6.28741 6.0931M4.10136 3.90705L1.52111 1.32679" stroke="#02343B" stroke-width="1.5" stroke-linecap="square"></path>
 												</svg><span>удалить</span></button>
